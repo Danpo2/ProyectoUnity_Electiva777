@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Jadan\\Documents\\GitHub\\ProyectoUnity_Electiva777\\ProyectoUnityElectiva777\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\ProyectoUnityElectiva777\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A1DDDC9-1739-F1F2-BE19-8B11D98E462D}|Assembly-CSharp.csproj|c:\\users\\jadan\\documents\\github\\proyectounity_electiva777\\proyectounityelectiva777\\assets\\registrogrupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1DDDC9-1739-F1F2-BE19-8B11D98E462D}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\proyectounity_electiva777\\proyectounityelectiva777\\assets\\registrogrupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1DDDC9-1739-F1F2-BE19-8B11D98E462D}|Assembly-CSharp.csproj|solutionrelative:assets\\registrogrupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,21 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "RegistroGrupo.cs",
-              "DocumentMoniker": "C:\\Users\\Jadan\\Documents\\GitHub\\ProyectoUnity_Electiva777\\ProyectoUnityElectiva777\\Assets\\RegistroGrupo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\ProyectoUnityElectiva777\\Assets\\RegistroGrupo.cs",
               "RelativeDocumentMoniker": "Assets\\RegistroGrupo.cs",
-              "ToolTip": "C:\\Users\\Jadan\\Documents\\GitHub\\ProyectoUnity_Electiva777\\ProyectoUnityElectiva777\\Assets\\RegistroGrupo.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\ProyectoUnityElectiva777\\Assets\\RegistroGrupo.cs",
               "RelativeToolTip": "Assets\\RegistroGrupo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T01:13:16.294Z",
               "EditorCaption": ""
