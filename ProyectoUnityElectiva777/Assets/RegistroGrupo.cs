@@ -22,6 +22,10 @@ public class RegistroGrupo : MonoBehaviour
         //	Nombre	completo: Daniel Silva	
         //	Fecha:	27/07/2025
         //	Hora:	6:35pm
+
+        //	Nombre	completo: Daniel Silva	
+        //	Fecha:	27/07/2025
+        //	Hora:	6:46pm
     }
 
     // Update is called once per frame
