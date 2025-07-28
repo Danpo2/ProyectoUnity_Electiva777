@@ -26,6 +26,10 @@ public class RegistroGrupo : MonoBehaviour
         //	Nombre	completo: Daniel Silva	
         //	Fecha:	27/07/2025
         //	Hora:	6:46pm
+
+        //	Nombre	completo: Jaime Daniel Posada Gómez	
+        //	Fecha:	27/07/2025
+        //	Hora:	10:20pm
     }
 
     // Update is called once per frame
