@@ -9,12 +9,12 @@ public class Script_1 : MonoBehaviour
 
     public void RotateLeft()
     {
-        golem.transform.Rotate(0.0f, 10.0f, 0.0f, Space.Self);
+        golem.transform.Rotate(0.0f, 0.0f, 10.0f, Space.Self);
     }
 
     public void RotateRight()
     {
-        golem.transform.Rotate(0.0f, -10.0f, 0.0f, Space.Self);
+        golem.transform.Rotate(0.0f, 0.0f, -10.0f, Space.Self);
     }
 
     public void TranslateUp()
