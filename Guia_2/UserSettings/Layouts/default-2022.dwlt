@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 118
+  controlID: 49
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -121,8 +121,8 @@ MonoBehaviour:
     y: 0
     width: 667
     height: 1307
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -323,8 +323,8 @@ MonoBehaviour:
     y: 0
     width: 909
     height: 886
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -481,7 +481,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -489,16 +489,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Script
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\user\Documents\GitHub\ProyectoUnity_Electiva777\Guia_2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 725c0000
-    m_LastClickedID: 23666
-    m_ExpandedIDs: 00000000705b0000
+    m_SelectedIDs: 525a0000
+    m_LastClickedID: 23122
+    m_ExpandedIDs: 000000004c5a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -526,7 +526,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000705b0000
+    m_ExpandedIDs: 000000004c5a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -668,7 +668,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c8edffff26eeffff34f3ffff
+      m_ExpandedIDs: 64f9ffff20fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1061,9 +1061,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 10.735851, y: 43.546665, z: 53.63078}
+    m_Target: {x: 6.27526, y: 37.21782, z: 53.325863}
     speed: 2
-    m_Value: {x: 10.735851, y: 43.546665, z: 53.63078}
+    m_Value: {x: 6.27526, y: 37.21782, z: 53.325863}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1111,7 +1111,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.03852746, y: 0.08891296, z: 0.003442308, w: -0.99528956}
     speed: 2
-    m_Value: {x: 0.038527403, y: 0.08891283, z: 0.003442303, w: -0.99528813}
+    m_Value: {x: 0.03852746, y: 0.08891296, z: 0.003442308, w: -0.99528956}
   m_Size:
     m_Target: 115.31555
     speed: 2
