@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A80EF20-7AFB-78C4-6F10-561B20D0F470}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\proyectounity_electiva777\\guia_2\\assets\\script\\touchphase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A80EF20-7AFB-78C4-6F10-561B20D0F470}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\touchphase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A80EF20-7AFB-78C4-6F10-561B20D0F470}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\proyectounity_electiva777\\guia_2\\assets\\script\\virtualdpad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A80EF20-7AFB-78C4-6F10-561B20D0F470}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\virtualdpad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A80EF20-7AFB-78C4-6F10-561B20D0F470}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_2\\assets\\script\\multitouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A80EF20-7AFB-78C4-6F10-561B20D0F470}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\multitouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A80EF20-7AFB-78C4-6F10-561B20D0F470}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_2\\assets\\script\\navegacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A80EF20-7AFB-78C4-6F10-561B20D0F470}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\navegacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Touchphase.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_2\\Assets\\Script\\Touchphase.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Touchphase.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_2\\Assets\\Script\\Touchphase.cs",
+              "RelativeToolTip": "Assets\\Script\\Touchphase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T22:12:54.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VirtualDPad.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_2\\Assets\\Script\\VirtualDPad.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\VirtualDPad.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_2\\Assets\\Script\\VirtualDPad.cs",
+              "RelativeToolTip": "Assets\\Script\\VirtualDPad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T21:21:01.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MultiTouch.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_2\\Assets\\Script\\MultiTouch.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\MultiTouch.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_2\\Assets\\Script\\MultiTouch.cs",
+              "RelativeToolTip": "Assets\\Script\\MultiTouch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T20:33:34.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "navegacion.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_2\\Assets\\Script\\navegacion.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\navegacion.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_2\\Assets\\Script\\navegacion.cs",
+              "RelativeToolTip": "Assets\\Script\\navegacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T19:23:15.621Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
