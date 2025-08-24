@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Vpad.unity
+- path: Assets/Scenes/Gestures.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
