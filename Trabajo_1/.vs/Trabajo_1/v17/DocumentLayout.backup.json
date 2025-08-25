@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12A63C1F-E2EF-7C6F-1A4C-323DBABF163C}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\proyectounity_electiva777\\trabajo_1\\assets\\scripts1\\craftingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A63C1F-E2EF-7C6F-1A4C-323DBABF163C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts1\\craftingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A63C1F-E2EF-7C6F-1A4C-323DBABF163C}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\assets\\scripts1\\bootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A63C1F-E2EF-7C6F-1A4C-323DBABF163C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts1\\bootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A63C1F-E2EF-7C6F-1A4C-323DBABF163C}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\assets\\scripts1\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A63C1F-E2EF-7C6F-1A4C-323DBABF163C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts1\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A63C1F-E2EF-7C6F-1A4C-323DBABF163C}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\assets\\scripts1\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A63C1F-E2EF-7C6F-1A4C-323DBABF163C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts1\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A63C1F-E2EF-7C6F-1A4C-323DBABF163C}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\assets\\scripts1\\itemid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A63C1F-E2EF-7C6F-1A4C-323DBABF163C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts1\\itemid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A63C1F-E2EF-7C6F-1A4C-323DBABF163C}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\assets\\scripts1\\dragdrop3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A63C1F-E2EF-7C6F-1A4C-323DBABF163C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts1\\dragdrop3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BootStrap.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\Assets\\Scripts1\\BootStrap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts1\\BootStrap.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\Assets\\Scripts1\\BootStrap.cs",
+              "RelativeToolTip": "Assets\\Scripts1\\BootStrap.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T01:32:08.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DragDrop3D.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\Assets\\Scripts1\\DragDrop3D.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts1\\DragDrop3D.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\Assets\\Scripts1\\DragDrop3D.cs",
+              "RelativeToolTip": "Assets\\Scripts1\\DragDrop3D.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwBwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T00:27:14.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CraftingManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\Assets\\Scripts1\\CraftingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts1\\CraftingManager.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\Assets\\Scripts1\\CraftingManager.cs",
+              "RelativeToolTip": "Assets\\Scripts1\\CraftingManager.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwFMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T00:18:31.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemId.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\Assets\\Scripts1\\ItemId.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts1\\ItemId.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\Assets\\Scripts1\\ItemId.cs",
+              "RelativeToolTip": "Assets\\Scripts1\\ItemId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T00:16:19.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Block.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\Assets\\Scripts1\\Block.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts1\\Block.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\Assets\\Scripts1\\Block.cs",
+              "RelativeToolTip": "Assets\\Scripts1\\Block.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T00:13:38.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Slot.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\Assets\\Scripts1\\Slot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts1\\Slot.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Trabajo_1\\Assets\\Scripts1\\Slot.cs",
+              "RelativeToolTip": "Assets\\Scripts1\\Slot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T00:11:18.495Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
