@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8AE6B9-6969-5BE7-6900-1F698FD05761}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\proyectounity_electiva777\\guia_3\\assets\\scripts\\objectgesturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8AE6B9-6969-5BE7-6900-1F698FD05761}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectgesturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8AE6B9-6969-5BE7-6900-1F698FD05761}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\proyectounity_electiva777\\guia_3\\assets\\scripts\\touchphasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8AE6B9-6969-5BE7-6900-1F698FD05761}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\touchphasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8AE6B9-6969-5BE7-6900-1F698FD05761}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\assets\\scripts\\virtualpadlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8AE6B9-6969-5BE7-6900-1F698FD05761}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\virtualpadlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8AE6B9-6969-5BE7-6900-1F698FD05761}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\assets\\scripts\\multitouchinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8AE6B9-6969-5BE7-6900-1F698FD05761}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\multitouchinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8AE6B9-6969-5BE7-6900-1F698FD05761}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\assets\\scripts\\scenenavigator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8AE6B9-6969-5BE7-6900-1F698FD05761}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenenavigator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8AE6B9-6969-5BE7-6900-1F698FD05761}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\assets\\scripts\\taphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8AE6B9-6969-5BE7-6900-1F698FD05761}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\taphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8AE6B9-6969-5BE7-6900-1F698FD05761}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\assets\\scripts\\playermover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8AE6B9-6969-5BE7-6900-1F698FD05761}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8AE6B9-6969-5BE7-6900-1F698FD05761}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\assets\\scripts\\pinchzoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8AE6B9-6969-5BE7-6900-1F698FD05761}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pinchzoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ObjectGestureController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\Assets\\Scripts\\ObjectGestureController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectGestureController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\Assets\\Scripts\\ObjectGestureController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectGestureController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAqwHMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T00:52:39.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VirtualPadLogger.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\Assets\\Scripts\\VirtualPadLogger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VirtualPadLogger.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\Assets\\Scripts\\VirtualPadLogger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VirtualPadLogger.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T21:24:32.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MultiTouchInfo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\Assets\\Scripts\\MultiTouchInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MultiTouchInfo.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\Assets\\Scripts\\MultiTouchInfo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MultiTouchInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T21:07:52.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TouchPhaseManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\Assets\\Scripts\\TouchPhaseManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TouchPhaseManager.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\Assets\\Scripts\\TouchPhaseManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TouchPhaseManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T20:53:40.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SceneNavigator.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\Assets\\Scripts\\SceneNavigator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneNavigator.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\Assets\\Scripts\\SceneNavigator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneNavigator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T20:29:39.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PinchZoom.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\Assets\\Scripts\\PinchZoom.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PinchZoom.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\Assets\\Scripts\\PinchZoom.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PinchZoom.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T20:03:52.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerMover.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\Assets\\Scripts\\PlayerMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMover.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\Assets\\Scripts\\PlayerMover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMover.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvzQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T20:00:06.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TapHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\Assets\\Scripts\\TapHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TapHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia_3\\Assets\\Scripts\\TapHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TapHandler.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T19:43:42.905Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
