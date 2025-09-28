@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{142398E1-2417-D7FA-5E1B-4E0A1CD2A59F}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\el mandado\\el mandado\\assets\\scritps\\hudgameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142398E1-2417-D7FA-5E1B-4E0A1CD2A59F}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\hudgameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142398E1-2417-D7FA-5E1B-4E0A1CD2A59F}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\el mandado\\el mandado\\assets\\scritps\\settingspanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142398E1-2417-D7FA-5E1B-4E0A1CD2A59F}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\settingspanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142398E1-2417-D7FA-5E1B-4E0A1CD2A59F}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\assets\\scritps\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142398E1-2417-D7FA-5E1B-4E0A1CD2A59F}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142398E1-2417-D7FA-5E1B-4E0A1CD2A59F}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\assets\\scritps\\modalview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142398E1-2417-D7FA-5E1B-4E0A1CD2A59F}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\modalview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142398E1-2417-D7FA-5E1B-4E0A1CD2A59F}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\assets\\scritps\\currencyui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142398E1-2417-D7FA-5E1B-4E0A1CD2A59F}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\currencyui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142398E1-2417-D7FA-5E1B-4E0A1CD2A59F}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\assets\\scritps\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142398E1-2417-D7FA-5E1B-4E0A1CD2A59F}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142398E1-2417-D7FA-5E1B-4E0A1CD2A59F}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\assets\\scritps\\canvasgroupfader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142398E1-2417-D7FA-5E1B-4E0A1CD2A59F}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\canvasgroupfader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HUDGameUi.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\Assets\\Scritps\\HUDGameUi.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\HUDGameUi.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\Assets\\Scritps\\HUDGameUi.cs",
+              "RelativeToolTip": "Assets\\Scritps\\HUDGameUi.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAcwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T17:10:17.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModalView.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\Assets\\Scritps\\ModalView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\ModalView.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\Assets\\Scritps\\ModalView.cs",
+              "RelativeToolTip": "Assets\\Scritps\\ModalView.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAowIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T03:21:54.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CurrencyUI.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\Assets\\Scritps\\CurrencyUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\CurrencyUI.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\Assets\\Scritps\\CurrencyUI.cs",
+              "RelativeToolTip": "Assets\\Scritps\\CurrencyUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T03:14:25.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SettingsPanel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\Assets\\Scritps\\SettingsPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\SettingsPanel.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\Assets\\Scritps\\SettingsPanel.cs",
+              "RelativeToolTip": "Assets\\Scritps\\SettingsPanel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T03:13:42.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\Assets\\Scritps\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\Assets\\Scritps\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scritps\\AudioManager.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T03:00:53.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CanvasGroupFader.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\Assets\\Scritps\\CanvasGroupFader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\CanvasGroupFader.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\Assets\\Scritps\\CanvasGroupFader.cs",
+              "RelativeToolTip": "Assets\\Scritps\\CanvasGroupFader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T03:00:40.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\Assets\\Scritps\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\MenuManager.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\El Mandado\\El Mandado\\Assets\\Scritps\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\Scritps\\MenuManager.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA9wD4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T02:58:15.413Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
