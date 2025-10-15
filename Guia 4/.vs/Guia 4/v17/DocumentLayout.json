@@ -1,18 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Jadan\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32159811-B92B-4EF4-42C2-107E1E8A2533}|Assembly-CSharp.csproj|c:\\users\\jadan\\documents\\github\\proyectounity_electiva777\\guia 4\\assets\\scripts\\basedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32159811-B92B-4EF4-42C2-107E1E8A2533}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\basedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\AuthManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AuthManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32159811-B92B-4EF4-42C2-107E1E8A2533}|Assembly-CSharp.csproj|c:\\users\\jadan\\documents\\github\\proyectounity_electiva777\\guia 4\\assets\\scripts\\jsonserializationexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32159811-B92B-4EF4-42C2-107E1E8A2533}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jsonserializationexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\RealtimeDatabaseService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RealtimeDatabaseService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32159811-B92B-4EF4-42C2-107E1E8A2533}|Assembly-CSharp.csproj|C:\\Users\\Jadan\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\assets\\scripts\\basicobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32159811-B92B-4EF4-42C2-107E1E8A2533}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\basicobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\RealtimeDbDemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RealtimeDbDemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\PlayerModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\FirebaseInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FirebaseInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\JsonSerializationExample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\JsonSerializationExample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\Basedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Basedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\BasicObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BasicObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +42,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\AuthManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AuthManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\AuthManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AuthManager.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:23:53.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RealtimeDatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\RealtimeDatabaseService.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RealtimeDatabaseService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\RealtimeDatabaseService.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RealtimeDatabaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:23:12.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\PlayerModel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerModel.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\PlayerModel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:22:16.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RealtimeDbDemo.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\RealtimeDbDemo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RealtimeDbDemo.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\RealtimeDbDemo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RealtimeDbDemo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:01:59.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FirebaseInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\FirebaseInitializer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FirebaseInitializer.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\FirebaseInitializer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FirebaseInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:01:26.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Basedatos.cs",
-              "DocumentMoniker": "C:\\Users\\Jadan\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\Basedatos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\Basedatos.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Basedatos.cs",
-              "ToolTip": "C:\\Users\\Jadan\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\Basedatos.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\Basedatos.cs",
               "RelativeToolTip": "Assets\\Scripts\\Basedatos.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T02:07:32.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "JsonSerializationExample.cs",
-              "DocumentMoniker": "C:\\Users\\Jadan\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\JsonSerializationExample.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\JsonSerializationExample.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\JsonSerializationExample.cs",
-              "ToolTip": "C:\\Users\\Jadan\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\JsonSerializationExample.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\JsonSerializationExample.cs",
               "RelativeToolTip": "Assets\\Scripts\\JsonSerializationExample.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,11 +137,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "BasicObject.cs",
-              "DocumentMoniker": "C:\\Users\\Jadan\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\BasicObject.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\BasicObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BasicObject.cs",
-              "ToolTip": "C:\\Users\\Jadan\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\BasicObject.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia 4\\Assets\\Scripts\\BasicObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\BasicObject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
