@@ -1,29 +1,30 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class CraftingManager : MonoBehaviour
 {
     public static CraftingManager Instance { get; private set; }
 
     [Header("Grilla 3x3 de la mesa (x=columna, y=fila)")]
-    public Slot[,] grid = new Slot[3, 3];   // La llena el Bootstrap por gridIndex (x,y)
+    public Slot[,] grid = new Slot[3, 3];
 
     [Header("Resultado")]
-    public GameObject furnacePrefab;        // Prefab del horno a instanciar
-    public Transform resultSpawn;           // Dónde aparece el horno
+    public GameObject furnacePrefab;        // Prefab del horno
+    public Transform resultSpawn;           // DÃ³nde aparece el horno
 
-    [HideInInspector] public bool isReady = false; // Se pone true cuando grid está enlazada
+    [Header("UI de victoria")]
+    public WinUIController winUI;           // ðŸ‘ˆ arrastra aquÃ­ tu UIManager en el Inspector
+
+    [HideInInspector] public bool isReady = false;
 
     void Awake()
     {
         Instance = this;
     }
 
-    /// <summary>
     /// Llama esto al soltar un bloque en cualquier slot.
-    /// </summary>
     public void Evaluate()
     {
-        if (!isReady) return; // Evita nulls si aún no enlazaste la grilla
+        if (!isReady) return;
 
         if (MatchesFurnaceRecipe())
         {
@@ -32,12 +33,10 @@ public class CraftingManager : MonoBehaviour
         }
     }
 
-    /// <summary>
     /// Receta del horno: anillo de piedra (todo menos el centro).
-    /// </summary>
     bool MatchesFurnaceRecipe()
     {
-        // Validación de seguridad: toda la grilla debe estar asignada
+        // Seguridad: toda la grilla debe estar asignada
         for (int y = 0; y < 3; y++)
             for (int x = 0; x < 3; x++)
             {
@@ -54,14 +53,14 @@ public class CraftingManager : MonoBehaviour
                 var slot = grid[x, y];
                 var block = slot.currentBlock;
 
-                // Centro (1,1) debe estar vacío
+                // Centro (1,1) vacÃ­o
                 if (x == 1 && y == 1)
                 {
                     if (block != null) return false;
                 }
                 else
                 {
-                    // El resto debe ser piedra
+                    // El resto piedra
                     if (block == null || block.id != ItemID.Cobblestone) return false;
                 }
             }
@@ -80,14 +79,16 @@ public class CraftingManager : MonoBehaviour
             }
 
             Vector3 pos = resultSpawn ? resultSpawn.position : Vector3.zero;
-            Instantiate(furnacePrefab, resultSpawn.position, resultSpawn.rotation);
-            Debug.Log("¡Horno crafteado!");
+            Quaternion rot = resultSpawn ? resultSpawn.rotation : Quaternion.identity;
+            Instantiate(furnacePrefab, pos, rot);
+            Debug.Log("Â¡Horno crafteado!");
+
+            // ðŸ‘‡ Mostrar panel de victoria SOLO cuando se hace el horno
+            if (winUI != null) winUI.ShowWin();
         }
     }
 
-    /// <summary>
-    /// Limpia los 9 slots de la mesa (destruye los bloques colocados).
-    /// </summary>
+    /// Limpia los 9 slots de la mesa
     void ClearGrid()
     {
         for (int y = 0; y < 3; y++)
