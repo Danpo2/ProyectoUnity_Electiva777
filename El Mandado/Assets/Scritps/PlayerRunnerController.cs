@@ -1,6 +1,7 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
+using UnityEngine.InputSystem; // New Input System
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
@@ -20,31 +21,60 @@ public class PlayerRunnerController : MonoBehaviour
     public Transform ceilingCheck;
     public float ceilingRadius = 0.12f;
 
+    [Header("Gestures")]
+    public bool logGestures = false;                         // para ver logs en consola
+    Dictionary<int, Vector2> swipeStart = new();             // inicio por dedo
+
+    
+
+
+    [Header("Jump Animation")]
+    public string jumpClipName = "Jump";       // nombre EXACTO del clip de salto
+    public string canExitJumpParam = "CanExitJump"; // parámetro bool en Animator
+    public bool lockJumpToClip = true;         // si true, el salto dura lo que el clip
+    float jumpClipDuration = 0.5f;             // se detecta en Awake (fallback)
+    bool canExitJump = true;                   // control interno
+    float jumpTimer = 0f;
+
     [Header("Movimiento / Salto")]
     public float jumpForce = 12f;
-    public float coyoteTime = 0.1f;       // margen tras dejar el suelo
-    public float jumpBufferTime = 0.1f;   // margen si presionas justo antes de tocar suelo
+    public float coyoteTime = 0.1f;            // margen tras dejar suelo
+    public float jumpBufferTime = 0.1f;        // margen si pulsas justo antes de tocar suelo
 
     [Header("Crouch / Slide")]
-    public float crouchHeightFactor = 0.6f;
-    [UnityEngine.Serialization.FormerlySerializedAs("crouchSwipeDuration")]
-    public float slideDuration = 0.60f;   // duración fija del slide al hacer swipe abajo
-    bool slideActive = false;             // true mientras dure el slide por swipe
+    public float crouchHeightFactor = 0.6f;    // altura del collider al agacharse (60%)
+    [Tooltip("Nombre EXACTO del CLIP de animación de deslizar (no el estado)")]
+    public string slideClipName = "Crouch";
+    [Tooltip("Exigir estar en el suelo para iniciar el slide")]
+    public bool requireGroundForSlide = true;
 
-    [Header("Swipe")]
-    [Tooltip("Proporción de la altura de pantalla que debe superar el swipe (0.08 = 8%)")]
-    public float minSwipeHeightRatio = 0.08f;
+    float slideDuration = 0.60f;               // se toma del clip en Awake; este es fallback
+    bool slideActive = false;
 
+    [Header("Swipe (New Input System)")]
+    [Tooltip("Mínimo en píxeles para considerar swipe (0 = 6% de la altura de pantalla).")]
+    public float minSwipePixels = 0f;
+    [Tooltip("Si es true, exige que |deltaY| > |deltaX| para considerar el swipe vertical.")]
+    public bool requireVerticalDominance = true;
+
+    // estado
     bool isGrounded;
     bool isCrouching;
     float coyoteCounter;
     float jumpBufferCounter;
 
+    // Landing guard
+    bool wasGrounded = false;
+    bool justLanded = false;
+
+    // Si activaste el cruce forzado, apágalo para descartar reentradas indeseadas
+    public bool forceCrossFadeJump = false;     // <- solo UNA vez en todo el script
+    public string jumpStateNameForFade = "Jump";
+
+
+    // colliders
     Vector2 colSizeOrig, colOffsetOrig;
     Vector2 colSizeCrouch, colOffsetCrouch;
-
-    Vector2 touchStartPos;
-    bool touchActive;
 
     void Reset()
     {
@@ -55,46 +85,96 @@ public class PlayerRunnerController : MonoBehaviour
 
     void Awake()
     {
+        // Referencias básicas
         if (!rb) rb = GetComponent<Rigidbody2D>();
         if (!bodyCollider) bodyCollider = GetComponent<BoxCollider2D>();
         if (!anim) anim = GetComponentInChildren<Animator>();
 
-        colSizeOrig   = bodyCollider.size;
+        // Guardar tamaño y offset originales del collider
+        colSizeOrig = bodyCollider.size;
         colOffsetOrig = bodyCollider.offset;
 
-        colSizeCrouch   = new Vector2(colSizeOrig.x, colSizeOrig.y * crouchHeightFactor);
+        // Calcular tamaño y offset al agacharse
+        colSizeCrouch = new Vector2(colSizeOrig.x, colSizeOrig.y * crouchHeightFactor);
         float offsetDelta = (colSizeOrig.y - colSizeCrouch.y) * 0.5f;
-        colOffsetCrouch  = colOffsetOrig + new Vector2(0f, -offsetDelta);
+        colOffsetCrouch = colOffsetOrig + new Vector2(0f, -offsetDelta);
+
+        // --- Detección automática de duración de clips ---
+        if (anim && anim.runtimeAnimatorController != null)
+        {
+            foreach (var clip in anim.runtimeAnimatorController.animationClips)
+            {
+                if (clip == null) continue;
+
+                // Duración del clip de deslizar (usa slideClipName)
+                if (clip.name == slideClipName)
+                {
+                    slideDuration = clip.length;
+                    // Debug.Log($"[Slide] Duración detectada: {slideDuration:F2}s del clip '{clip.name}'");
+                }
+
+                // Duración del clip de salto
+                if (clip.name == jumpClipName)
+                {
+                    jumpClipDuration = clip.length;
+                    // Debug.Log($"[Jump] Duración detectada: {jumpClipDuration:F2}s del clip '{clip.name}'");
+                }
+            }
+        }
     }
 
     void Update()
     {
-        // No leer entradas ni animar si el juego está en pausa
         if (Time.timeScale < 0.01f) return;
 
+        // Actualiza grounded
         CheckGround();
-        HandleKeyboard();
-        HandleTouch();
+        // Detectar aterrizaje (cambio de false -> true)
+        justLanded = isGrounded && !wasGrounded;
+        wasGrounded = isGrounded;
+
+        // Si acaba de aterrizar, limpia cualquier trigger y buffer de salto
+        if (justLanded)
+        {
+            jumpBufferCounter = 0f;
+            if (anim) anim.ResetTrigger("Jump");
+        }
+
 
         // Timers de coyote y buffer
         if (isGrounded) coyoteCounter = coyoteTime;
-        else            coyoteCounter -= Time.deltaTime;
+        else coyoteCounter -= Time.deltaTime;
 
         if (jumpBufferCounter > 0f) jumpBufferCounter -= Time.deltaTime;
 
-        // Si hubo buffer y ahora estoy grounded → salto
+        // Si hay buffer y ahora estoy grounded → salto
         if (jumpBufferCounter > 0f && isGrounded)
         {
             DoJump();
             jumpBufferCounter = 0f;
         }
 
+        // Control del lock de salto (duración del clip)
+        if (lockJumpToClip && !canExitJump)
+        {
+            jumpTimer -= Time.deltaTime;
+            if (jumpTimer <= 0f)
+            {
+                canExitJump = true;
+                anim?.SetBool(canExitJumpParam, true); // liberar salida de Jump
+            }
+        }
+
+        // Entradas
+        HandleKeyboardNewInput();
+        HandleTouchNewInput();
+
         // Animator params
         if (anim)
         {
             anim.SetBool("Grounded", isGrounded);
-            anim.SetBool("Crouch",   isCrouching);
-            anim.SetFloat("yVel",    GetVelocity().y);
+            anim.SetFloat("yVel", rb.linearVelocity.y);
+            anim.SetBool("Crouch", isCrouching);
         }
     }
 
@@ -104,103 +184,116 @@ public class PlayerRunnerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundMask);
     }
 
-    void HandleKeyboard()
+    // ===== ENTRADAS (New Input System) =====
+    void HandleKeyboardNewInput()
     {
-        // Saltar: ↑ / W
-        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
-        {
+        var kb = Keyboard.current;
+        if (kb == null) return;
+
+        if (kb.upArrowKey.wasPressedThisFrame || kb.wKey.wasPressedThisFrame)
             TryJump();
-        }
 
-        // Agacharse con teclado (mantener ↓ / S). No afecta el slide fijo.
-        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
-        {
+        if (kb.downArrowKey.wasPressedThisFrame || kb.sKey.wasPressedThisFrame)
             StartCrouch();
-        }
-        if (Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.S))
-        {
-            StopCrouch(); // si hay slide activo, no se levantará (ver guardia abajo)
-        }
+
+        if (kb.downArrowKey.wasReleasedThisFrame || kb.sKey.wasReleasedThisFrame)
+            StopCrouch(); // no corta si slideActive = true
     }
 
-    void HandleTouch()
+    void HandleTouchNewInput()
     {
-        if (Input.touchCount == 0) return;
+        var ts = Touchscreen.current;
+        if (ts == null) return;
 
-        Touch t = Input.GetTouch(0);
-
-        // Ignora toques sobre UI
-        if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject(t.fingerId))
-            return;
-
-        switch (t.phase)
+        var touches = ts.touches;
+        for (int i = 0; i < touches.Count; i++)
         {
-            case TouchPhase.Began:
-                touchActive = true;
-                touchStartPos = t.position;
-                break;
+            var t = touches[i];
 
-            case TouchPhase.Ended:
-            case TouchPhase.Canceled:
-                if (!touchActive) break;
-                touchActive = false;
+            bool down = t.press.wasPressedThisFrame;
+            bool up = t.press.wasReleasedThisFrame;
 
-                Vector2 end = t.position;
-                Vector2 delta = end - touchStartPos;
+            if (down)
+            {
+                Vector2 start = t.position.ReadValue();
+                swipeStart[i] = start;
+                if (logGestures) Debug.Log($"[Touch] Began id={i} start={start}");
+            }
 
-                float minSwipe = Screen.height * minSwipeHeightRatio;
-                if (Mathf.Abs(delta.y) > Mathf.Abs(delta.x) && Mathf.Abs(delta.y) >= minSwipe)
+            if (up)
+            {
+                if (!swipeStart.TryGetValue(i, out var start)) continue;
+
+                Vector2 end = t.position.ReadValue();
+                Vector2 delta = end - start;
+
+                float min = (minSwipePixels > 0f) ? minSwipePixels : Screen.height * 0.06f;
+                if (logGestures) Debug.Log($"[Touch] End id={i} delta={delta} min={min}");
+
+                bool verticalOK = !requireVerticalDominance || Mathf.Abs(delta.y) > Mathf.Abs(delta.x);
+                if (verticalOK)
                 {
-                    if (delta.y > 0f)      TryJump();   // swipe arriba → salto
-                    else                   StartSlide(); // swipe abajo → slide de tiempo fijo
+                    if (delta.y >= min) { if (logGestures) Debug.Log("[Swipe] ↑ detectado → Jump"); TryJump(); }
+                    else if (delta.y <= -min) { if (logGestures) Debug.Log("[Swipe] ↓ detectado → Slide"); StartSlide(); }
                 }
-                break;
+
+                swipeStart.Remove(i);
+            }
         }
     }
 
+    // ===== SALTO =====
     void TryJump()
     {
-        // Puedes saltar si estás en el suelo o dentro de coyote
+        // Evita consumir buffer/trigger justo en el frame de aterrizaje
+        if (justLanded) return;
+
         if (isGrounded || coyoteCounter > 0f)
-        {
             DoJump();
-        }
         else
-        {
-            // Guarda intención de salto por si aterrizas en breve
-            jumpBufferCounter = jumpBufferTime;
-        }
+            jumpBufferCounter = jumpBufferTime; // solo si realmente estás en el aire
     }
+
 
     void DoJump()
     {
-        // Si estabas agachado, intenta levantarte antes de saltar (si hay espacio)
+        if (slideActive) return;
+        if (!isGrounded && coyoteCounter <= 0f) return;
+
         if (isCrouching)
         {
-            if (CanStandUp()) StopCrouch();
-            else return; // no saltes si no puedes levantarte
+            if (CanStandUp()) StopCrouch(); else return;
         }
 
-        Vector2 v = GetVelocity();
-        v.y = 0f;                 // reset vertical para saltos consistentes
-        SetVelocity(v);
-        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        // Limpia Y y aplica impulso
+        var v = rb.linearVelocity; v.y = 0f; rb.linearVelocity = v;
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
 
+        // Dispara animación y bloquea salida (el Behaviour la liberará al final del clip)
+        if (anim)
+        {
+            anim.SetBool(canExitJumpParam, false);
+            anim.ResetTrigger("Jump");
+            anim.SetTrigger("Jump");
+
+            // Mejor dejar esto en false mientras depuras
+            if (forceCrossFadeJump)
+                anim.CrossFadeInFixedTime(jumpStateNameForFade, 0.05f, 0);
+        }
+
+        // Resetea contadores
         coyoteCounter = 0f;
         jumpBufferCounter = 0f;
-
-        anim?.SetTrigger("Jump");
     }
 
-    // ---- Crouch / Slide ----
 
+
+
+    // ===== CROUCH / SLIDE =====
     public void StartSlide()
     {
-        // Sólo desliza si estás en el suelo; si no, ignora
-        if (!isGrounded) return;
-
-        // Si ya estás deslizando, no reiniciar (cámbialo si quieres reinicio)
         if (slideActive) return;
+        if (requireGroundForSlide && !isGrounded) return;
 
         StartCoroutine(CoSlide());
     }
@@ -208,17 +301,18 @@ public class PlayerRunnerController : MonoBehaviour
     IEnumerator CoSlide()
     {
         slideActive = true;
-        StartCrouch(); // activa el estado agachado (collider + anim)
+        StartCrouch();
 
         float t = 0f;
-        while (t < slideDuration)
+        float dur = slideDuration > 0f ? slideDuration : 0.6f; // fallback
+        while (t < dur)
         {
-            t += Time.deltaTime; // se “pausa” si Time.timeScale=0
+            t += Time.deltaTime;
             yield return null;
         }
 
         slideActive = false;
-        StopCrouch(); // intenta levantarse (respeta techo)
+        StopCrouch();
     }
 
     void StartCrouch()
@@ -226,18 +320,17 @@ public class PlayerRunnerController : MonoBehaviour
         if (isCrouching) return;
         isCrouching = true;
         ApplyCrouchCollider(true);
+        anim?.SetBool("Crouch", true);
     }
 
     void StopCrouch()
     {
         if (!isCrouching) return;
-
-        // Si está activo un slide de duración fija, no permitir levantarse
-        if (slideActive) return;
-
-        if (!CanStandUp()) return; // sigue agachado si hay techo
+        if (slideActive) return;          // no cortar el slide fijo
+        if (!CanStandUp()) return;        // respeta techo
         isCrouching = false;
         ApplyCrouchCollider(false);
+        anim?.SetBool("Crouch", false);
     }
 
     bool CanStandUp()
@@ -261,7 +354,6 @@ public class PlayerRunnerController : MonoBehaviour
         }
     }
 
-    // ---- Gizmos ----
     void OnDrawGizmosSelected()
     {
         if (groundCheck)
@@ -274,23 +366,5 @@ public class PlayerRunnerController : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(ceilingCheck.position, ceilingRadius);
         }
-    }
-
-    // ===== Helpers de compatibilidad: velocity vs linearVelocity =====
-    Vector2 GetVelocity()
-    {
-#if UNITY_6000_0_OR_NEWER
-        return rb.linearVelocity;
-#else
-        return rb.velocity;
-#endif
-    }
-    void SetVelocity(Vector2 v)
-    {
-#if UNITY_6000_0_OR_NEWER
-        rb.linearVelocity = v;
-#else
-        rb.velocity = v;
-#endif
     }
 }
