@@ -49,4 +49,4 @@ MonoBehaviour:
   gameScene: Game
   shopScene: Shop
   podiumScene: Podium
-  settingsModal: {fileID: 5558361584686329392, guid: b5e792cb292cad04c8380761433798f6, type: 3}
+  settingsModal: {fileID: 0}
