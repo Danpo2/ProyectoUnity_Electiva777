@@ -367,4 +367,22 @@ public class PlayerRunnerController : MonoBehaviour
             Gizmos.DrawWireSphere(ceilingCheck.position, ceilingRadius);
         }
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // Detecta si tocó una paloma
+        if (other.CompareTag("Pigeon"))
+        {
+            Debug.Log("💥 Colisión con paloma");
+            PauseGame();
+        }
+    }
+
+    void PauseGame()
+    {
+        // Detiene el tiempo
+        Time.timeScale = 0f;
+
+        
+    }
+
 }

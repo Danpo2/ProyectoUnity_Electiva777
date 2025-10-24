@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: b20b0f928435cf843913d81415b473b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1742823938535140518
+    second: palomas_0
+  - first:
+      213: -5763126511254978202
+    second: palomas_1
+  - first:
+      213: -3740241389896357829
+    second: palomas_2
+  - first:
+      213: 7006474229749177541
+    second: palomas_3
+  - first:
+      213: 3596322718677440013
+    second: palomas_4
+  - first:
+      213: 3384889910997023176
+    second: palomas_5
+  - first:
+      213: 2609281003923745697
+    second: palomas_6
+  - first:
+      213: -8985793425966050639
+    second: palomas_7
+  - first:
+      213: 3447428198376101059
+    second: palomas_8
+  - first:
+      213: 1000147196033406231
+    second: palomas_9
+  - first:
+      213: 553963077351476365
+    second: palomas_10
+  - first:
+      213: 1197152370467262672
+    second: palomas_11
+  - first:
+      213: 6016007096470621923
+    second: palomas_12
+  - first:
+      213: 5888148952519571553
+    second: palomas_13
+  - first:
+      213: -5155796012196423642
+    second: palomas_14
+  - first:
+      213: -3064738955260964187
+    second: palomas_15
+  - first:
+      213: 2823008830528453718
+    second: palomas_16
+  - first:
+      213: -5922444650264966771
+    second: palomas_17
+  - first:
+      213: 6591324295168068513
+    second: palomas_18
+  - first:
+      213: 5463796305337313298
+    second: palomas_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: palomas_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 124
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abac0e9f37063420800000000000000
+      internalID: 2609281003923745697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palomas_7
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 126
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2d044ec7c0c4380800000000000000
+      internalID: -8985793425966050639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palomas_8
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 124
+        width: 75
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c45fd06ea9b7df20800000000000000
+      internalID: 3447428198376101059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palomas_9
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 113
+        width: 75
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7159ca6639c31ed00800000000000000
+      internalID: 1000147196033406231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palomas_10
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 124
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c873cdb7210b700800000000000000
+      internalID: 553963077351476365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palomas_11
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 124
+        width: 75
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0d7b7fcb32d9010800000000000000
+      internalID: 1197152370467262672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6c2c36ccaca4b7f4cb3004ca0813ffd7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      palomas_0: -1742823938535140518
+      palomas_1: -5763126511254978202
+      palomas_10: 553963077351476365
+      palomas_11: 1197152370467262672
+      palomas_12: 6016007096470621923
+      palomas_13: 5888148952519571553
+      palomas_14: -5155796012196423642
+      palomas_15: -3064738955260964187
+      palomas_16: 2823008830528453718
+      palomas_17: -5922444650264966771
+      palomas_18: 6591324295168068513
+      palomas_19: 5463796305337313298
+      palomas_2: -3740241389896357829
+      palomas_3: 7006474229749177541
+      palomas_4: 3596322718677440013
+      palomas_5: 3384889910997023176
+      palomas_6: 2609281003923745697
+      palomas_7: -8985793425966050639
+      palomas_8: 3447428198376101059
+      palomas_9: 1000147196033406231
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
