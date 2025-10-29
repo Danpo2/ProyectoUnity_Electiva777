@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Fondo
   - Pigeon
+  - Coin
   layers:
   - Default
   - TransparentFX
