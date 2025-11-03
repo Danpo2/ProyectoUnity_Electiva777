@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{540664FC-8D15-8FD7-EE6B-317C1C3CFE30}</ProjectGuid>
+    <ProjectGuid>{B702E0E9-D4DD-730E-6913-B5F6BFD78646}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,9 +61,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Collectible.cs" />
+    <Compile Include="Assets\Scripts\MatchHUD.cs" />
+    <Compile Include="Assets\Scripts\ScoreHUD.cs" />
+    <Compile Include="Assets\Scripts\MatchManager.cs" />
     <Compile Include="Assets\Scripts\NetworkLobbyUI.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\GameSpawner.cs" />
     <Compile Include="Assets\Scripts\PlayerState.cs" />
+    <Compile Include="Assets\Scripts\PlayerCameraOwnerOnly.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -1293,6 +1299,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Bootstrap.csproj">
+      <Project>{52EB23B1-0C70-E913-363E-BCFBD3AAEAFC}</Project>
+      <Name>Bootstrap</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
