@@ -1,11 +1,11 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using Unity.Netcode;
 
-public class GameSpawner : NetworkBehaviour
+public class GameSpawner : MonoBehaviour   // ← antes: NetworkBehaviour
 {
     [Header("Spawn Bounds (centro en 0,0)")]
-    [SerializeField] private float halfSize = 50f; // Terreno 100x100 => mitad 50
+    [SerializeField] private float halfSize = 50f;
 
     [Header("Prefabs")]
     [SerializeField] private GameObject playerPrefab;
@@ -15,6 +15,7 @@ public class GameSpawner : NetworkBehaviour
     [SerializeField] private int collectiblesCount = 30;
 
     private readonly Dictionary<ulong, NetworkObject> spawnedPlayers = new();
+    private bool didInitialSpawn;
 
     private void OnEnable()
     {
@@ -22,7 +23,6 @@ public class GameSpawner : NetworkBehaviour
         {
             NetworkManager.Singleton.OnClientConnectedCallback += OnClientConnected;
             NetworkManager.Singleton.OnClientDisconnectCallback += OnClientDisconnected;
-            NetworkManager.Singleton.OnServerStarted += OnServerStarted;
         }
     }
 
@@ -32,61 +32,69 @@ public class GameSpawner : NetworkBehaviour
         {
             NetworkManager.Singleton.OnClientConnectedCallback -= OnClientConnected;
             NetworkManager.Singleton.OnClientDisconnectCallback -= OnClientDisconnected;
-            NetworkManager.Singleton.OnServerStarted -= OnServerStarted;
         }
     }
 
-    private void OnServerStarted()
+    private void Start()
     {
-        if (!IsServer) return;
+        var nm = NetworkManager.Singleton;
+        if (nm == null) return;
 
-        // Spawnear ya conectados (host por ejemplo)
-        foreach (var clientId in NetworkManager.Singleton.ConnectedClientsIds)
-            SpawnPlayerFor(clientId);
+        if (nm.IsServer && nm.IsListening && !didInitialSpawn)
+        {
+            Debug.Log("[Spawner] Start() en GameScene -> spawn inicial");
+            foreach (var id in nm.ConnectedClientsIds)
+                SpawnPlayerFor(id);
 
-        // Spawnear coleccionables una sola vez
-        SpawnCollectibles();
+            SpawnCollectibles();
+            didInitialSpawn = true;
+        }
     }
 
     private void OnClientConnected(ulong clientId)
     {
-        if (!IsServer) return;
+        var nm = NetworkManager.Singleton;
+        if (nm == null || !nm.IsServer) return;
+
+        Debug.Log($"[Spawner] OnClientConnected -> {clientId}");
         SpawnPlayerFor(clientId);
     }
 
     private void OnClientDisconnected(ulong clientId)
     {
-        if (!IsServer) return;
+        var nm = NetworkManager.Singleton;
+        if (nm == null || !nm.IsServer) return;
 
-        if (spawnedPlayers.TryGetValue(clientId, out var netObj) && netObj != null && netObj.IsSpawned)
-        {
+        if (spawnedPlayers.TryGetValue(clientId, out var netObj) && netObj && netObj.IsSpawned)
             netObj.Despawn(true);
-        }
+
         spawnedPlayers.Remove(clientId);
     }
 
     private void SpawnPlayerFor(ulong clientId)
     {
-        if (playerPrefab == null) { Debug.LogError("Falta playerPrefab en GameSpawner"); return; }
+        if (!playerPrefab) { Debug.LogError("Falta playerPrefab en GameSpawner"); return; }
 
         Vector3 pos = GetRandomPointOnMap();
         var go = Instantiate(playerPrefab, pos, Quaternion.identity);
         var netObj = go.GetComponent<NetworkObject>();
-        netObj.SpawnAsPlayerObject(clientId, true); // asigna ownership al cliente
+        netObj.SpawnAsPlayerObject(clientId, true);
 
         spawnedPlayers[clientId] = netObj;
+        Debug.Log($"[Spawner] Player spawneado para {clientId} en {pos}");
     }
 
     private void SpawnCollectibles()
     {
-        if (collectiblePrefab == null) { Debug.LogWarning("Falta collectiblePrefab, no se generar�n coleccionables."); return; }
+        if (!collectiblePrefab)
+        { Debug.LogWarning("Falta collectiblePrefab, no se generarán coleccionables."); return; }
 
+        Debug.Log($"[Spawner] Spawning {collectiblesCount} collectibles");
         for (int i = 0; i < collectiblesCount; i++)
         {
             Vector3 pos = GetRandomPointOnMap();
             var go = Instantiate(collectiblePrefab, pos, Quaternion.identity);
-            var no = go.GetComponent<NetworkObject>();
-            no.Spawn(true);
+            go.GetComponent<NetworkObject>().Spawn(true);
         }
     }
 
@@ -94,6 +102,6 @@ public class GameSpawner : NetworkBehaviour
     {
         float x = Random.Range(-halfSize + 1f, halfSize - 1f);
         float z = Random.Range(-halfSize + 1f, halfSize - 1f);
-        return new Vector3(x, 0.05f, z); // un poco sobre el suelo
+        return new Vector3(x, 0.05f, z);
     }
 }

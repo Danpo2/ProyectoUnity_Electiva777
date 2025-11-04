@@ -22,14 +22,27 @@ public class NetworkLobbyUI : MonoBehaviour
     private NetworkManager nm;
     private UnityTransport transport;
 
+    // En NetworkLobbyUI
     private void Awake()
     {
         nm = NetworkManager.Singleton;
+        if (!nm) TryFindNM();
         if (!nm) { Debug.LogError("Falta NetworkManager en la escena."); enabled = false; return; }
 
         transport = nm.GetComponent<UnityTransport>();
         if (!transport) { Debug.LogError("Falta UnityTransport en el NetworkManager."); enabled = false; return; }
     }
+
+    private void TryFindNM()
+    {
+#if UNITY_2023_1_OR_NEWER
+    var found = Object.FindFirstObjectByType<NetworkManager>();
+#else
+        var found = Object.FindObjectOfType<NetworkManager>();
+#endif
+        if (found) nm = found;
+    }
+
 
     private void OnEnable()
     {

@@ -40,21 +40,31 @@ public class ScoreHUD : MonoBehaviour
 
     private void Update()
     {
-        // Actualiza el puntaje enemigo cada frame de forma simple (o haz un timer)
+        // Evita correr si aún no hay NetworkManager
+        if (NetworkManager.Singleton == null) return;
         Refresh();
     }
 
+
     private void Refresh()
     {
-        if (myState && myScoreText) myScoreText.text = $"Yo: {myState.Score.Value}";
+        var nm = NetworkManager.Singleton;
+        if (nm == null || !nm.IsListening) return; // NM no está listo
+
+        if (myState != null && myScoreText)
+            myScoreText.text = $"Yo: {myState.Score.Value}";
 
         // “Enemigo” = cualquier otro PlayerState que no sea el mío (para 1v1)
-        var others = NetworkManager.Singleton.ConnectedClientsList
-            .Where(c => c.ClientId != NetworkManager.Singleton.LocalClientId)
-            .Select(c => c.PlayerObject?.GetComponent<PlayerState>())
+        var others = nm.ConnectedClientsList
+            .Where(c => c.ClientId != nm.LocalClientId)
+            .Select(c => c.PlayerObject ? c.PlayerObject.GetComponent<PlayerState>() : null)
             .Where(ps => ps != null);
 
-        int enemyScore = others.FirstOrDefault()?.Score.Value ?? 0;
+        int enemyScore = 0;
+        var first = others.FirstOrDefault();
+        if (first != null) enemyScore = first.Score.Value;
+
         if (enemyScoreText) enemyScoreText.text = $"Enemigo: {enemyScore}";
     }
+
 }
