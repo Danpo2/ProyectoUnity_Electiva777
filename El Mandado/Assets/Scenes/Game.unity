@@ -251,6 +251,110 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 94344298}
   m_CullTransparentMesh: 1
+--- !u!1 &217521092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 217521094}
+  - component: {fileID: 217521093}
+  m_Layer: 0
+  m_Name: DogSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &217521093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217521092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f30c4979c02c144892b786c626b0109, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dogPrefab: {fileID: 3929060158536962619, guid: 76a9504f1a8eb3542b2055f781b593cb, type: 3}
+  cam: {fileID: 519420031}
+  spawnY: -4.07
+  offsetFromRight: 1.2
+  z: 0
+  spawnInterval: 2
+  spawnOnStart: 0
+  dogSpeed: 4.5
+--- !u!4 &217521094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217521092}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.02, y: -4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &236756745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 236756747}
+  - component: {fileID: 236756746}
+  m_Layer: 0
+  m_Name: SpawnDirector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &236756746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236756745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0739830ccacc274e956cf7506c36719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dogSpawner: {fileID: 217521093}
+  pigeonSpawner: {fileID: 1321541548}
+  player: {fileID: 499728018}
+  cam: {fileID: 519420031}
+  dogInterval: {x: 4, y: 7}
+  pigeonInterval: {x: 3, y: 6}
+  minConflictGap: 1.25
+  arrivalTolerance: 0.05
+--- !u!4 &236756747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236756745}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.1001353, y: -3.0189028, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &240481025
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,7 +641,7 @@ MonoBehaviour:
   jumpClipName: Jump
   canExitJumpParam: CanExitJump
   lockJumpToClip: 1
-  jumpForce: 8
+  jumpForce: 10
   coyoteTime: 0.1
   jumpBufferTime: 0.1
   crouchHeightFactor: 0.6
@@ -1478,7 +1582,7 @@ GameObject:
   - component: {fileID: 1321541547}
   - component: {fileID: 1321541548}
   m_Layer: 3
-  m_Name: ObstacleSpawner
+  m_Name: PigeonSpawner
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1515,8 +1619,8 @@ MonoBehaviour:
   cam: {fileID: 519420031}
   spawnY: -2.57
   offsetFromRight: 1.5
-  timeBetweenSpawns: {x: 4, y: 4}
-  spawnOnStart: 1
+  timeBetweenSpawns: {x: 4, y: 7}
+  spawnOnStart: 0
   pigeonSpeed: 8
   speedMultiplier: 1
   z: 0
@@ -1743,7 +1847,7 @@ MonoBehaviour:
   spawnY: -3.2
   offsetFromRight: 1.2
   z: 0
-  spawnInterval: 2
+  spawnInterval: 7
   spawnOnStart: 1
   coinSpeed: 3
 --- !u!4 &1567083776
@@ -2142,3 +2246,5 @@ SceneRoots:
   - {fileID: 1321541547}
   - {fileID: 1567083776}
   - {fileID: 499728018}
+  - {fileID: 217521094}
+  - {fileID: 236756747}

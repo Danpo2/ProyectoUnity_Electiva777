@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\MatchManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MatchManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\PlayerState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\PlayerCameraOwnerOnly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerCameraOwnerOnly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\MatchHUD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MatchHUD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\Collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\ScoreHUD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,8 +19,28 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\NetworkLobbyUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\PlayerState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\MatchManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MatchManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\PlayerCameraOwnerOnly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerCameraOwnerOnly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\MatchHUD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MatchHUD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\Collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +50,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\CameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T01:09:23.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PlayerCameraOwnerOnly.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\PlayerCameraOwnerOnly.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCameraOwnerOnly.cs",
@@ -58,12 +75,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerCameraOwnerOnly.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T07:49:27.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T07:49:27.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "MatchHUD.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\MatchHUD.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MatchHUD.cs",
@@ -75,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "MatchManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\MatchManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MatchManager.cs",
@@ -88,19 +104,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "ScoreHUD.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\ScoreHUD.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreHUD.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\ScoreHUD.cs",
               "RelativeToolTip": "Assets\\Scripts\\ScoreHUD.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwDwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T07:40:03.706Z"
+              "WhenOpened": "2025-11-03T07:40:03.706Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Collectible.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\Collectible.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Collectible.cs",
@@ -112,19 +129,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "GameSpawner.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\GameSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameSpawner.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\GameSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameSpawner.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAQwGMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T07:33:27.437Z"
+              "WhenOpened": "2025-11-03T07:33:27.437Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PlayerState.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\PlayerState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerState.cs",
@@ -137,27 +155,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T07:24:50.595Z"
+              "WhenOpened": "2025-11-03T07:24:50.595Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "NetworkLobbyUI.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\NetworkLobbyUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NetworkLobbyUI.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\Guia5\\Assets\\Scripts\\NetworkLobbyUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\NetworkLobbyUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T07:12:14.623Z"
+              "WhenOpened": "2025-11-03T07:12:14.623Z",
+              "EditorCaption": ""
             }
           ]
         }

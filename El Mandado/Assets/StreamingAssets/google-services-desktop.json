@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "241796667015",
+    "project_id": "el-mandado-11eb8",
+    "storage_bucket": "el-mandado-11eb8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241796667015:android:86b968710c41cad21e8a22",
+        "android_client_info": {
+          "package_name": "com.UMNG.elmandado"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKBvZwrh1rDOmSlcclf3pXo4NbNYNM1-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
