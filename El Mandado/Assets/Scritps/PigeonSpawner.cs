@@ -8,15 +8,15 @@ public class PigeonSpawner : MonoBehaviour
 
     [Header("Cámara / Posición")]
     public Camera cam;                        // si lo dejas vacío, usa Camera.main
-    public float spawnY = 0.5f;               // altura fija para todas las palomas
+    public float spawnY = -2.57f;               // altura fija para todas las palomas
     public float offsetFromRight = 1.5f;      // cuánto fuera del borde derecho aparecen
 
     [Header("Frecuencia")]
-    public Vector2 timeBetweenSpawns = new Vector2(2f, 4f); // aleatorio entre min y max
+    public Vector2 timeBetweenSpawns = new Vector2(4f, 7f); // aleatorio entre min y max
     public bool spawnOnStart = true;
 
     [Header("Velocidad")]
-    public float pigeonSpeed = 6f;            // debe coincidir con tu velocidad de nivel
+    public float pigeonSpeed = 8f;            // debe coincidir con tu velocidad de nivel
     public float speedMultiplier = 1f;        // para subir/bajar globalmente
 
     [Header("Z y Sorting")]

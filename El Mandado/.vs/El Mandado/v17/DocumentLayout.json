@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\FirebaseManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\FirebaseManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\MainMenuProfileUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\MainMenuProfileUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\SpawnDirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\SpawnDirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\DogObstacleHit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\DogObstacleHit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PigeonSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\PigeonSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\DogSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\DogSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\DogMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\DogMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\MainMenuProfileUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\MainMenuProfileUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CoinPickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\CoinPickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PigeonObstacleHit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\PigeonObstacleHit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\DogObstacleHit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\DogObstacleHit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PlayerRunnerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\PlayerRunnerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\MenuManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\MenuManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\HUDGameUi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,6 +45,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CoinSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\CoinSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CoinPickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\CoinPickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\FirebaseManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\FirebaseManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\LevelScroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\LevelScroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PauseOpensSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\PauseOpensSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\DogMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\DogMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CoinMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,36 +79,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\ModalView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PlayerRunnerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\PlayerRunnerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\JumpExitLock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\JumpExitLock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PauseOpensSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\PauseOpensSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\LevelScroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\LevelScroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PigeonMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\PigeonMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PigeonObstacleHit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\PigeonObstacleHit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PigeonSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\PigeonSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\MenuManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\MenuManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\SettingsPanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,89 +106,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\GameManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scritps\\GameManager.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAQwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T18:49:25.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainMenuProfileUI.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\MainMenuProfileUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\MainMenuProfileUI.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\MainMenuProfileUI.cs",
               "RelativeToolTip": "Assets\\Scritps\\MainMenuProfileUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T22:25:39.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "FirebaseManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\FirebaseManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\FirebaseManager.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\FirebaseManager.cs",
               "RelativeToolTip": "Assets\\Scritps\\FirebaseManager.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T22:20:46.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SpawnDirector.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\SpawnDirector.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\SpawnDirector.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\SpawnDirector.cs",
               "RelativeToolTip": "Assets\\Scritps\\SpawnDirector.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAQwHwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T21:32:18.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "DogSpawner.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\DogSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\DogSpawner.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\DogSpawner.cs",
               "RelativeToolTip": "Assets\\Scritps\\DogSpawner.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAQwEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T20:58:11.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "DogObstacleHit.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\DogObstacleHit.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\DogObstacleHit.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\DogObstacleHit.cs",
               "RelativeToolTip": "Assets\\Scritps\\DogObstacleHit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T20:57:18.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DogMover.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\DogMover.cs",
-              "RelativeDocumentMoniker": "Assets\\Scritps\\DogMover.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\DogMover.cs",
-              "RelativeToolTip": "Assets\\Scritps\\DogMover.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T20:56:52.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CoinSpawner.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CoinSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\CoinSpawner.cs",
@@ -192,60 +196,77 @@
               "RelativeToolTip": "Assets\\Scritps\\CoinSpawner.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAADwv0sAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T22:30:56.085Z"
+              "WhenOpened": "2025-10-29T22:30:56.085Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CoinMover.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CoinMover.cs",
-              "RelativeDocumentMoniker": "Assets\\Scritps\\CoinMover.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CoinMover.cs",
-              "RelativeToolTip": "Assets\\Scritps\\CoinMover.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T22:29:59.848Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "CoinPickup.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CoinPickup.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\CoinPickup.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CoinPickup.cs",
               "RelativeToolTip": "Assets\\Scritps\\CoinPickup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T22:29:06.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PigeonSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PigeonSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scritps\\PigeonSpawner.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PigeonSpawner.cs",
-              "RelativeToolTip": "Assets\\Scritps\\PigeonSpawner.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAcwEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T23:26:49.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 5,
               "Title": "PigeonObstacleHit.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PigeonObstacleHit.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\PigeonObstacleHit.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PigeonObstacleHit.cs",
               "RelativeToolTip": "Assets\\Scritps\\PigeonObstacleHit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T23:25:26.459Z"
+              "WhenOpened": "2025-10-23T23:25:26.459Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
+              "Title": "HUDGameUi.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\HUDGameUi.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\HUDGameUi.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\HUDGameUi.cs",
+              "RelativeToolTip": "Assets\\Scritps\\HUDGameUi.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAswEoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T17:10:17.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\MenuManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\Scritps\\MenuManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T02:58:15.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PigeonSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PigeonSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\PigeonSpawner.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PigeonSpawner.cs",
+              "RelativeToolTip": "Assets\\Scritps\\PigeonSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T23:26:49.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "PigeonMover.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PigeonMover.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\PigeonMover.cs",
@@ -257,15 +278,53 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerRunnerController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PlayerRunnerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\PlayerRunnerController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PlayerRunnerController.cs",
+              "RelativeToolTip": "Assets\\Scritps\\PlayerRunnerController.cs",
+              "ViewState": "AgIAAFwBAAAAAAAAAAAAAIIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T21:29:34.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CoinMover.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CoinMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\CoinMover.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CoinMover.cs",
+              "RelativeToolTip": "Assets\\Scritps\\CoinMover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:29:59.848Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "DogMover.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\DogMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\DogMover.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\DogMover.cs",
+              "RelativeToolTip": "Assets\\Scritps\\DogMover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T20:56:52.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "LevelScroller.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\LevelScroller.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\LevelScroller.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\LevelScroller.cs",
               "RelativeToolTip": "Assets\\Scritps\\LevelScroller.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAcwI0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T20:14:01.397Z"
+              "WhenOpened": "2025-10-23T20:14:01.397Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -277,11 +336,12 @@
               "RelativeToolTip": "Assets\\Scritps\\PauseOpensSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T04:25:37.078Z"
+              "WhenOpened": "2025-10-20T04:25:37.078Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "JumpExitLock.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\JumpExitLock.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\JumpExitLock.cs",
@@ -293,31 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PlayerRunnerController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PlayerRunnerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scritps\\PlayerRunnerController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PlayerRunnerController.cs",
-              "RelativeToolTip": "Assets\\Scritps\\PlayerRunnerController.cs",
-              "ViewState": "AgIAAFMBAAAAAAAAAAAcwIIBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T21:29:34.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HUDGameUi.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\HUDGameUi.cs",
-              "RelativeDocumentMoniker": "Assets\\Scritps\\HUDGameUi.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\HUDGameUi.cs",
-              "RelativeToolTip": "Assets\\Scritps\\HUDGameUi.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACgAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T17:10:17.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "ModalView.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\ModalView.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\ModalView.cs",
@@ -329,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "CurrencyUI.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CurrencyUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\CurrencyUI.cs",
@@ -341,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "SettingsPanel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\SettingsPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\SettingsPanel.cs",
@@ -353,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\AudioManager.cs",
@@ -365,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "CanvasGroupFader.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CanvasGroupFader.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\CanvasGroupFader.cs",
@@ -374,18 +410,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T03:00:40.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MenuManager.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\MenuManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scritps\\MenuManager.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\MenuManager.cs",
-              "RelativeToolTip": "Assets\\Scritps\\MenuManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T02:58:15.413Z"
             }
           ]
         }

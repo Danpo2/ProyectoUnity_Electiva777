@@ -10,24 +10,19 @@ public class PigeonObstacleHit : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
 
-        // 1) Intentar leer estado desde el Animator ("Crouch" debe ser true al deslizar)
         var anim = other.GetComponentInChildren<Animator>();
         bool isSliding = anim && anim.GetBool("Crouch");
 
-        // 2) Si tienes un método público en tu controller, úsalo (opcional)
-        // var ctrl = other.GetComponentInParent<PlayerRunnerController>();
-        // if (ctrl) isSliding = ctrl.IsSliding();
-
         if (isSliding)
         {
-            // Pasa por debajo sin consecuencias
+            // pasa sin consecuencias
             return;
         }
 
-        // No está deslizándose → golpe
+        // Evento opcional (sonido, partículas, etc.)
         onPlayerHit?.Invoke();
 
-        // Si quieres destruir la paloma al golpear:
-        // Destroy(gameObject);
+        // Avisar al GameManager que perdió
+        GameManager.I?.PlayerCrashed();
     }
 }

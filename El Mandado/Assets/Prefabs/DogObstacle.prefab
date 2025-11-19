@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3268781497209460209}
   - component: {fileID: 6158827340191083919}
   - component: {fileID: 58019917111138491}
+  - component: {fileID: -61484599756016877}
   m_Layer: 3
   m_Name: DogObstacle
   m_TagString: Untagged
@@ -31,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.343, y: -3.9421, z: 212.94974}
-  m_LocalScale: {x: 0.08374408, y: 0.08374408, z: 0.08374408}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -80,9 +81,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4942280887130383747, guid: 3838e7d27d36ca7448daba1311f3f5ff, type: 3}
+  m_Sprite: {fileID: 4349166090967286858, guid: 079c37690ca3ea74caa6e1e1675e5a7f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 10.96, y: 5.77}
@@ -152,17 +153,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.07521629, y: 2.9134393}
+  m_Offset: {x: 0.19391584, y: 1.7651602}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 10.96, y: 5.77}
+    oldSize: {x: 5.4, y: 4.04}
     newSize: {x: 10.96, y: 5.77}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 11.275824, y: 5.8269787}
+  m_Size: {x: 4.788041, y: 3.5304205}
   m_EdgeRadius: 0
 --- !u!114 &6158827340191083919
 MonoBehaviour:
@@ -194,3 +195,25 @@ MonoBehaviour:
   onPlayerHit:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &-61484599756016877
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3929060158536962619}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f20ac4d5671e1c941bea92c50287d2c2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

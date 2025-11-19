@@ -10,16 +10,19 @@ public class DogObstacleHit : MonoBehaviour
     private void Reset()
     {
         var col = GetComponent<Collider2D>();
-        if (col) col.isTrigger = true; // trabajamos con trigger
+        if (col) col.isTrigger = true;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;
 
-        // Pierde al tocar el perro (independiente de si está saltando)
-        Time.timeScale = 0f;                  // pausa el juego
-        onPlayerHit?.Invoke();                // para abrir UI, sonidos, etc.
-        Debug.Log("💥 Player golpeó al perro. Juego detenido.");
+        // Evento opcional (sonido, cámara shake, etc.)
+        onPlayerHit?.Invoke();
+
+        // Avisar al GameManager que perdió
+        GameManager.I?.PlayerCrashed();
+
+        Debug.Log("💥 Player golpeó al perro.");
     }
 }

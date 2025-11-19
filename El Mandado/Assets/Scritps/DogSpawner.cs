@@ -9,7 +9,7 @@ public class DogSpawner : MonoBehaviour
     [Header("Posición")]
     public Camera cam;
     [Tooltip("Altura fija en Y para el perro (suelo).")]
-    public float spawnY = -2.5f;
+    public float spawnY = -4.07f;
     [Tooltip("Cuánto fuera del borde derecho aparece.")]
     public float offsetFromRight = 1.2f;
     [Tooltip("Z de la instancia (2D = 0).")]
@@ -17,12 +17,12 @@ public class DogSpawner : MonoBehaviour
 
     [Header("Frecuencia")]
     [Tooltip("Tiempo entre spawns (segundos).")]
-    public float spawnInterval = 5f;
+    public float spawnInterval = 2f;
     public bool spawnOnStart = true;
 
     [Header("Movimiento del perro")]
     [Tooltip("Velocidad hacia la izquierda que tendrá el perro (si usa DogMover).")]
-    public float dogSpeed = 6f;
+    public float dogSpeed = 4.5f;
 
     Coroutine loop;
 
