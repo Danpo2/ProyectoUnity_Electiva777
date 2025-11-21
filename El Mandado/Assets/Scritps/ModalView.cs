@@ -30,38 +30,50 @@ public class ModalView : MonoBehaviour
     public void InstantHide()
     {
         isOpen = false;
-        gameObject.SetActive(false);
+
         if (panel)
-        {
             panel.localScale = Vector3.one;
-        }
+
         if (panelCg)
         {
             panelCg.alpha = 0f;
             panelCg.blocksRaycasts = false;
             panelCg.interactable = false;
         }
+
         if (backdrop)
         {
-            var c = backdrop.color; c.a = 0f; backdrop.color = c;
+            var c = backdrop.color;
+            c.a = 0f;
+            backdrop.color = c;
+
             var btn = backdrop.GetComponent<Button>();
-            if (btn) btn.enabled = false; // no capta toques oculto
+            if (btn) btn.enabled = false;
         }
+
+        gameObject.SetActive(false);
     }
 
     public void Open()
     {
         if (isOpen) return;
         isOpen = true;
-        gameObject.SetActive(true);
+
+        if (!gameObject.activeSelf)
+            gameObject.SetActive(true);
+
         StopAllCoroutines();
         StartCoroutine(CoOpen());
     }
 
     public void Close()
     {
-        if (!isOpen) return;
+        if (!isOpen && !gameObject.activeSelf) return;
         isOpen = false;
+
+        if (!gameObject.activeSelf)
+            gameObject.SetActive(true);   // activo mientras anima el cierre
+
         StopAllCoroutines();
         StartCoroutine(CoClose());
     }
@@ -87,20 +99,26 @@ public class ModalView : MonoBehaviour
         {
             t += Time.unscaledDeltaTime;
             float k = Mathf.Clamp01(t / fadeTime);
+
             // Fade panel + backdrop
             if (panelCg) panelCg.alpha = k;
             if (backdrop)
             {
-                var c = backdrop.color; c.a = Mathf.Lerp(0f, 0.5f, k); backdrop.color = c;
+                var c = backdrop.color;
+                c.a = Mathf.Lerp(0f, 0.5f, k);
+                backdrop.color = c;
             }
+
             // Pop scale (ligero overshoot)
             if (panel)
             {
                 float s = Mathf.SmoothStep(0.92f, popScale, k);
                 panel.localScale = new Vector3(s, s, 1f);
             }
+
             yield return null;
         }
+
         if (panel) panel.localScale = Vector3.one;
     }
 
@@ -115,20 +133,23 @@ public class ModalView : MonoBehaviour
         {
             t += Time.unscaledDeltaTime;
             float k = Mathf.Clamp01(t / fadeTime);
-            float inv = 1f - k;
 
             if (panelCg) panelCg.alpha = Mathf.Lerp(startAlpha, 0f, k);
             if (backdrop)
             {
-                var c = backdrop.color; c.a = Mathf.Lerp(startBackdrop, 0f, k); backdrop.color = c;
+                var c = backdrop.color;
+                c.a = Mathf.Lerp(startBackdrop, 0f, k);
+                backdrop.color = c;
             }
             if (panel)
             {
                 float s = Mathf.Lerp(startScale, 0.92f, k);
                 panel.localScale = new Vector3(s, s, 1f);
             }
+
             yield return null;
         }
+
         InstantHide();
     }
 }

@@ -66,6 +66,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Scritps\AudioManager.cs" />
+    <Compile Include="Assets\Scritps\GamePauseManager.cs" />
+    <Compile Include="Assets\Sounds\AudioSettingsManager.cs" />
     <Compile Include="Assets\Scritps\SpawnDirector.cs" />
     <Compile Include="Assets\Scritps\CoinSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -73,6 +75,7 @@
     <Compile Include="Assets\Scritps\DogMover.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\Sounds\SFXPlayer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scritps\PauseOpensSettings.cs" />
     <Compile Include="Assets\Scritps\CurrencyUI.cs" />
@@ -118,6 +121,7 @@
     <Compile Include="Assets\Scritps\GameManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\Scritps\CoinMover.cs" />
+    <Compile Include="Assets\Sounds\UIButtonSFX.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

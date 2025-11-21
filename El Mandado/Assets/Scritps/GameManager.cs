@@ -37,9 +37,11 @@ public class GameManager : MonoBehaviour
         if (isGameOver) return;
         isGameOver = true;
 
-        ShowEndUI(win: false);
+        SFXPlayer.I?.PlayLose();
+        ShowEndUI(false);
         _ = SaveRunToFirebase();
     }
+
 
     // ---------- Llamado cuando llega a la meta ----------
     public void PlayerReachedGoal()
@@ -47,9 +49,11 @@ public class GameManager : MonoBehaviour
         if (isGameOver) return;
         isGameOver = true;
 
-        ShowEndUI(win: true);
+        SFXPlayer.I?.PlayWin();
+        ShowEndUI(true);
         _ = SaveRunToFirebase();
     }
+
 
     void ShowEndUI(bool win)
     {

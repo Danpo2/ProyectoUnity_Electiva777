@@ -16,12 +16,9 @@ public class CoinPickup : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
 
-        // Sumar en HUD
         HUDGameUI.I?.AddCoins(value * 1000);
-
-        // TODO: Efecto/SFX opcional aquí (partículas, sonido)
-
-        // Destruir moneda
+        SFXPlayer.I?.PlayCoin();
         Destroy(gameObject);
     }
+
 }
