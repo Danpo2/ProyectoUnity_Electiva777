@@ -15,11 +15,18 @@ public class FirebaseManager : MonoBehaviour
     public FirebaseUser User { get; private set; }
     public DatabaseReference DB { get; private set; }
 
-    // Si NO quieres Auth todavía, usa esto como ID de jugador.
     public string PlayerId { get; private set; }
+
+    // NUEVO: nombre en memoria para esta ejecución
+    public string PlayerName { get; set; }
 
     void Awake()
     {
+#if UNITY_EDITOR
+        // Cada vez que das Play en el editor, empieza sin nombre
+        PlayerName = null;
+#endif
+
         if (I != null && I != this)
         {
             Destroy(gameObject);
@@ -29,6 +36,7 @@ public class FirebaseManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         _ = InitFirebase();
     }
+
 
     async Task InitFirebase()
     {

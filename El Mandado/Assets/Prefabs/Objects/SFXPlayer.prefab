@@ -46,10 +46,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sfxSource: {fileID: 8346685382229499586}
-  buttonClick: {fileID: 8300000, guid: 149cc0b0536cfb84182f5a0c2514a1a4, type: 3}
-  coinPickup: {fileID: 0}
-  loseSound: {fileID: 0}
-  winSound: {fileID: 0}
+  buttonClick: {fileID: 8300000, guid: db9bc99e7e1323f4d96ddcfad022f92a, type: 3}
+  coinPickup: {fileID: 8300000, guid: 975ee613583f22b489117ed6df82d891, type: 3}
+  loseSound: {fileID: 8300000, guid: ed19dc5ec15c6ef4b8a972e7cd165c74, type: 3}
+  winSound: {fileID: 8300000, guid: e6ed091e6dc60b041bc07a34f6be07bb, type: 3}
 --- !u!82 &8346685382229499586
 AudioSource:
   m_ObjectHideFlags: 0

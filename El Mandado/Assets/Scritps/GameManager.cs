@@ -41,6 +41,25 @@ public class GameManager : MonoBehaviour
         ShowEndUI(false);
         _ = SaveRunToFirebase();
     }
+    public class GameSession : MonoBehaviour
+    {
+        public int coinsThisRun = 0;
+
+        public void AddCoin(int amount = 1)
+        {
+            coinsThisRun += amount;
+            // actualizar UI si quieres
+        }
+
+        public async void OnRunEnded()
+        {
+            // llamado tanto si mueres como si llegas al final
+            if (FirebaseManager.I != null && FirebaseManager.I.IsReady)
+            {
+                await FirebaseManager.I.SubmitHighScoreAsync(coinsThisRun);
+            }
+        }
+    }
 
 
     // ---------- Llamado cuando llega a la meta ----------

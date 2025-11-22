@@ -7,7 +7,8 @@ public class SpawnDirector : MonoBehaviour
     public DogSpawner dogSpawner;
     public PigeonSpawner pigeonSpawner;
     public Camera cam;
-    public float fixedPlayerX = -4.38f; // Posición fija X del jugador
+    public Transform player;        // <--- NUEVO
+    public float fixedPlayerX = -4.38f;
 
     [Header("Intervalos (segundos)")]
     public Vector2 dogInterval = new Vector2(4f, 7f);
@@ -29,7 +30,8 @@ public class SpawnDirector : MonoBehaviour
 
     void Awake()
     {
-        if (!cam) cam = Camera.main;
+        if (dogSpawner) dogSpawner.player = player;
+        if (pigeonSpawner) pigeonSpawner.player = player;
     }
 
     void OnEnable()

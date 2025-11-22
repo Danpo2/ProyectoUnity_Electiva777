@@ -7,20 +7,21 @@ public class PigeonSpawner : MonoBehaviour
     public GameObject pigeonPrefab;
 
     [Header("Cámara / Posición")]
-    public Camera cam;                        // si lo dejas vacío, usa Camera.main
-    public float spawnY = -2.57f;               // altura fija para todas las palomas
-    public float offsetFromRight = 1.5f;      // cuánto fuera del borde derecho aparecen
+    public Camera cam;
+    public Transform player;
+    public float heightAbovePlayer = 1.2f;
+    public float offsetFromRight = 1.5f;
 
     [Header("Frecuencia")]
-    public Vector2 timeBetweenSpawns = new Vector2(4f, 7f); // aleatorio entre min y max
+    public Vector2 timeBetweenSpawns = new Vector2(4f, 7f);
     public bool spawnOnStart = true;
 
     [Header("Velocidad")]
-    public float pigeonSpeed = 8f;            // debe coincidir con tu velocidad de nivel
-    public float speedMultiplier = 1f;        // para subir/bajar globalmente
+    public float pigeonSpeed = 8f;
+    public float speedMultiplier = 1f;
 
     [Header("Z y Sorting")]
-    public float z = 0f;                      // z where pigeons live (2D = 0)
+    public float z = 0f;
 
     void Awake()
     {
@@ -41,22 +42,21 @@ public class PigeonSpawner : MonoBehaviour
         {
             float wait = Random.Range(timeBetweenSpawns.x, timeBetweenSpawns.y);
             yield return new WaitForSeconds(wait);
-
             SpawnOne();
         }
     }
 
     public void SpawnOne()
     {
-        if (!pigeonPrefab || !cam) return;
+        if (!pigeonPrefab || !cam || !player) return;
 
-        // Borde derecho de la cámara en mundo
         float right = cam.transform.position.x + cam.orthographicSize * cam.aspect;
 
+        float spawnY = player.position.y + heightAbovePlayer;
         Vector3 pos = new Vector3(right + offsetFromRight, spawnY, z);
+
         var go = Instantiate(pigeonPrefab, pos, Quaternion.identity, transform);
 
-        // Configura movimiento
         var mover = go.GetComponent<PigeonMover>();
         if (mover)
         {
@@ -65,3 +65,4 @@ public class PigeonSpawner : MonoBehaviour
         }
     }
 }
+

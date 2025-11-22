@@ -14,14 +14,23 @@ public class MainMenuProfileUI : MonoBehaviour
         while (FirebaseManager.I == null)
             await Task.Yield();
 
-        Debug.Log("[UI] Encontró FirebaseManager, esperando IsReady...");
-
         while (!FirebaseManager.I.IsReady)
             await Task.Yield();
 
-        Debug.Log("[UI] Firebase IsReady = true");
+        // Siempre que arranca escena principal en esta ejecución,
+        // si no hay nombre en memoria, mostramos el input vacío.
+        if (string.IsNullOrEmpty(FirebaseManager.I.PlayerName))
+        {
+            nameInput.text = "";
+            if (saveButton) saveButton.gameObject.SetActive(true);
+        }
+        else
+        {
+            // Si ya puso nombre en esta ejecución, lo mostramos
+            nameInput.text = FirebaseManager.I.PlayerName;
+            if (saveButton) saveButton.gameObject.SetActive(false);
+        }
     }
-
 
     public async void SaveName()
     {
@@ -38,10 +47,14 @@ public class MainMenuProfileUI : MonoBehaviour
             return;
         }
 
+        // Guarda en memoria para esta ejecución
+        FirebaseManager.I.PlayerName = n;
+
+        // Y también en Firebase (persistente)
         await FirebaseManager.I.SavePlayerNameAsync(n);
+
         if (feedback) feedback.text = "¡Nombre guardado!";
-
-        if (saveButton) saveButton.gameObject.SetActive(false); // Oculta el botón
+        if (saveButton) saveButton.gameObject.SetActive(false);
     }
-
 }
+

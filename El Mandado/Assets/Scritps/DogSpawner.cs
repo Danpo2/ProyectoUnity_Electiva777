@@ -3,16 +3,12 @@ using System.Collections;
 
 public class DogSpawner : MonoBehaviour
 {
-    [Header("Prefab")]
     public GameObject dogPrefab;
-
-    [Header("Posición")]
     public Camera cam;
-    [Tooltip("Altura fija en Y para el perro (suelo).")]
-    public float spawnY = -4.07f;
-    [Tooltip("Cuánto fuera del borde derecho aparece.")]
+    public Transform player;      // referencia al jugador
+    public float yOffset = 0f;    // ajuste fino si hace falta (ej: -0.1f)
+
     public float offsetFromRight = 1.2f;
-    [Tooltip("Z de la instancia (2D = 0).")]
     public float z = 0f;
 
     [Header("Frecuencia")]
@@ -57,15 +53,15 @@ public class DogSpawner : MonoBehaviour
     [ContextMenu("Spawn One (Test)")]
     public void SpawnOne()
     {
-        if (!dogPrefab || !cam) return;
+        if (!dogPrefab || !cam || !player) return;
 
         float right = cam.transform.position.x + cam.orthographicSize * cam.aspect;
+
+        float spawnY = player.position.y + yOffset;   // misma altura que el jugador
         Vector3 pos = new Vector3(right + offsetFromRight, spawnY, z);
 
-        // Instanciar conservando la escala del prefab
         GameObject go = Instantiate(dogPrefab, pos, Quaternion.identity);
 
-        // Configurar movimiento si tiene DogMover
         var mover = go.GetComponent<DogMover>();
         if (mover) mover.speed = dogSpeed;
     }

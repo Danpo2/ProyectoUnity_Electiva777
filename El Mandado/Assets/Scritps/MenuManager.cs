@@ -1,11 +1,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
+
 
 public class MenuManager : MonoBehaviour
 {
     [Header("Refs")]
     public CanvasGroupFader fader;
     public GameObject settingsPanel;
+    public TMP_InputField nameInput;           // Referencia al input de nombre
+    public TextMeshProUGUI feedback;           // Referencia al feedback textual
+
 
     [Header("Scene Names")]
     public string gameScene = "Game";
@@ -19,7 +24,12 @@ public class MenuManager : MonoBehaviour
     {
         if (fader) fader.Instant(0f);
         if (settingsPanel) settingsPanel.SetActive(false);
+
+        // Recupera el nombre guardado si existe
+        string nombre = PlayerPrefs.GetString("PlayerName", "");
+        if (nameInput) nameInput.text = nombre;
     }
+
 
     void Update()
     {
@@ -36,8 +46,24 @@ public class MenuManager : MonoBehaviour
     public void OnPlay()
     {
         AudioManager.I?.PlayClick();
+
+        string playerName = nameInput.text.Trim();
+
+        if (string.IsNullOrEmpty(playerName))
+        {
+            // Muestra advertencia en feedback y NO inicia escena
+            if (feedback) feedback.text = "Pon tu nombre primero";
+            return;
+        }
+
+        // Guarda el nombre antes de cargar la escena
+        PlayerPrefs.SetString("PlayerName", playerName);
+        PlayerPrefs.Save();
+        feedback.text = "Nombre guardado";
+
         LoadScene(gameScene);
     }
+
 
     public void OnShop()
     {
@@ -51,11 +77,7 @@ public class MenuManager : MonoBehaviour
         settingsModal?.Open();
     }
 
-    public void OnPodium()
-    {
-        AudioManager.I?.PlayClick();
-        LoadScene(podiumScene);
-    }
+    
 
     public void OnCloseSettings()
     {
@@ -74,4 +96,19 @@ public class MenuManager : MonoBehaviour
         if (fader) await fader.FadeTo(1f, 0.25f);
         SceneManager.LoadScene(sceneName);
     }
+    public PodiumModal podiumModal;
+    public PodiumFetcher podiumFetcher; // Arrastra en el inspector
+
+    public void OnPodium()
+    {
+        Debug.Log("[Menu] OnPodium clickeado");
+        AudioManager.I?.PlayClick();
+        StartCoroutine(podiumFetcher.FetchPodiumDataCoroutine());
+    }
+
+
+
+
+
+
 }
