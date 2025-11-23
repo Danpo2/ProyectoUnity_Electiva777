@@ -60,9 +60,14 @@ public class DogSpawner : MonoBehaviour
         float spawnY = player.position.y + yOffset;   // misma altura que el jugador
         Vector3 pos = new Vector3(right + offsetFromRight, spawnY, z);
 
-        GameObject go = Instantiate(dogPrefab, pos, Quaternion.identity);
+        // ANTES: sin padre (el perro queda suelto en la raíz)
+        // GameObject go = Instantiate(dogPrefab, pos, Quaternion.identity);
+
+        // AHORA: que cuelgue del propio DogSpawner
+        GameObject go = Instantiate(dogPrefab, pos, Quaternion.identity, transform);
 
         var mover = go.GetComponent<DogMover>();
         if (mover) mover.speed = dogSpeed;
     }
+
 }

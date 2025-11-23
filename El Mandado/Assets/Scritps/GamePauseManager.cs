@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GamePauseManager : MonoBehaviour
 {
-    public ModalView settingsModal;   // arrastra aquí el SettingsModal de la escena Game
+    public ModalView settingsModal;
 
     bool isPaused;
 
@@ -11,8 +11,9 @@ public class GamePauseManager : MonoBehaviour
         if (isPaused) return;
 
         isPaused = true;
-        Time.timeScale = 0f;          // pausa el juego
-        settingsModal.Open();         // abre el mismo panel de ajustes
+        Time.timeScale = 0f;
+        GameManager.I?.SetGameplayObjectsVisible(false);
+        settingsModal.Open();
     }
 
     public void OnCloseSettingsInGame()
@@ -20,7 +21,8 @@ public class GamePauseManager : MonoBehaviour
         if (!isPaused) return;
 
         isPaused = false;
-        Time.timeScale = 1f;          // reanuda el juego
-        settingsModal.Close();        // cierra el panel
+        Time.timeScale = 1f;
+        GameManager.I?.SetGameplayObjectsVisible(true);
+        settingsModal.Close();
     }
 }

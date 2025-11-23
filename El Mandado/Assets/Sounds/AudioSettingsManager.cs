@@ -27,19 +27,14 @@ public class AudioSettingsManager : MonoBehaviour
 
     void Awake()
     {
-        // Valores por defecto al dar Play (si quieres leer lo guardado, usa PlayerPrefs.GetFloat aquí)
-        float music = defaultMusic;
-        float sfx = defaultSfx;
+        float music = PlayerPrefs.GetFloat(MUSIC_KEY, defaultMusic);
+        float sfx = PlayerPrefs.GetFloat(SFX_KEY, defaultSfx);
 
         if (musicSlider) musicSlider.value = music;
         if (sfxSlider) sfxSlider.value = sfx;
 
         SetMusicVolume(music);
         SetSFXVolume(sfx);
-
-        // Opcional: si NO quieres que se guarde nada entre ejecuciones, comenta estas dos líneas
-        PlayerPrefs.SetFloat(MUSIC_KEY, music);
-        PlayerPrefs.SetFloat(SFX_KEY, sfx);
     }
 
     public void OnMusicSliderChanged(float value)
@@ -56,17 +51,15 @@ public class AudioSettingsManager : MonoBehaviour
 
     private void SetMusicVolume(float value)
     {
-        
-
-        // Convertir valor lineal (0–1) a dB
+        value = Mathf.Clamp(value, 0.0001f, 1f);      // evita log10(0)
         float dB = Mathf.Log10(value) * 20f;
         mixer.SetFloat(MUSIC_PARAM, dB);
     }
 
+
     private void SetSFXVolume(float value)
     {
-        
-
+        value = Mathf.Clamp(value, 0.0001f, 1f);
         float dB = Mathf.Log10(value) * 20f;
         mixer.SetFloat(SFX_PARAM, dB);
     }

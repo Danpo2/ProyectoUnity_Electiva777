@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 public class GameManager : MonoBehaviour
 {
     public static GameManager I;
+    [Header("Objetos de juego a ocultar")]
+    public GameObject[] objectsToHide;   // monedas, perro, paloma, etc.
 
     [Header("UI Game Over / Victoria")]
     public GameObject losePanel;
@@ -29,6 +31,33 @@ public class GameManager : MonoBehaviour
 
         if (losePanel) losePanel.SetActive(false);
         if (winPanel) winPanel.SetActive(false);
+    }
+    void Start()
+    {
+        Debug.Log("[Game] Pidiendo PlayGame()");
+        MusicManager.I?.PlayGame();
+    }
+    public void SetGameplayObjectsVisible(bool visible)
+    {
+        Debug.Log("[GM] SetGameplayObjectsVisible " + visible);
+
+        if (objectsToHide == null)
+        {
+            Debug.Log("[GM] objectsToHide es null");
+            return;
+        }
+
+        foreach (var go in objectsToHide)
+        {
+            if (go == null)
+            {
+                Debug.Log("[GM] Hay un slot vacío en objectsToHide");
+                continue;
+            }
+
+            Debug.Log("[GM] " + go.name + " -> " + visible);
+            go.SetActive(visible);
+        }
     }
 
     // ---------- Llamado cuando pierde (choque) ----------
@@ -78,6 +107,9 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 0f;
 
+        // Ocultar monedas, perro, paloma, etc.
+        SetGameplayObjectsVisible(false);
+
         int coins = HUDGameUI.I != null ? HUDGameUI.I.GetRunCoins() : 0;
         float time = HUDGameUI.I != null ? HUDGameUI.I.GetElapsedSeconds() : 0f;
         string timeStr = FormatTime(time);
@@ -95,6 +127,7 @@ public class GameManager : MonoBehaviour
             if (loseTimeText) loseTimeText.text = $"Tiempo: {timeStr}";
         }
     }
+
 
     string FormatTime(float seconds)
     {

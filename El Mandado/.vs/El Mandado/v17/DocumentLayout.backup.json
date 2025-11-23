@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Sounds\\AudioManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Sounds\\AudioManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Sounds\\MusicManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Sounds\\MusicManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Sounds\\AudioSettingsManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Sounds\\AudioSettingsManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\SpawnDirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\SpawnDirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -75,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\SettingsPanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Sounds\\AudioSettingsManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Sounds\\AudioSettingsManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PigeonObstacleHit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scritps\\PigeonObstacleHit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -130,11 +138,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Sounds\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Sounds\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Sounds\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Sounds\\AudioManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T17:08:23.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MusicManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Sounds\\MusicManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Sounds\\MusicManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Sounds\\MusicManager.cs*",
+              "RelativeToolTip": "Assets\\Sounds\\MusicManager.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T17:08:03.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "PodiumFetcher.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PodiumFetcher.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\PodiumFetcher.cs",
@@ -142,12 +176,11 @@
               "RelativeToolTip": "Assets\\Scritps\\PodiumFetcher.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAADwv0AAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T19:41:20.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T19:41:20.655Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "PodiumModal.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PodiumModal.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\PodiumModal.cs",
@@ -155,12 +188,11 @@
               "RelativeToolTip": "Assets\\Scritps\\PodiumModal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T19:32:47.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T19:32:47.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "SFXPlayer.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Sounds\\SFXPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Sounds\\SFXPlayer.cs",
@@ -168,12 +200,11 @@
               "RelativeToolTip": "Assets\\Sounds\\SFXPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T01:12:29.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T01:12:29.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "DogObstacleHit.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\DogObstacleHit.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\DogObstacleHit.cs",
@@ -181,12 +212,11 @@
               "RelativeToolTip": "Assets\\Scritps\\DogObstacleHit.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T20:57:18.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T20:57:18.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "HUDGameUi.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\HUDGameUi.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\HUDGameUi.cs",
@@ -198,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ModalView.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\ModalView.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\ModalView.cs",
@@ -206,12 +236,11 @@
               "RelativeToolTip": "Assets\\Scritps\\ModalView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T03:21:54.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T03:21:54.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "MainMenuProfileUI.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\MainMenuProfileUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\MainMenuProfileUI.cs",
@@ -219,12 +248,11 @@
               "RelativeToolTip": "Assets\\Scritps\\MainMenuProfileUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T22:25:39.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T22:25:39.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\MenuManager.cs",
@@ -232,12 +260,11 @@
               "RelativeToolTip": "Assets\\Scritps\\MenuManager.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T02:58:15.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T02:58:15.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "FirebaseManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\FirebaseManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\FirebaseManager.cs",
@@ -245,12 +272,11 @@
               "RelativeToolTip": "Assets\\Scritps\\FirebaseManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T22:20:46.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T22:20:46.677Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "DogSpawner.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\DogSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\DogSpawner.cs",
@@ -258,12 +284,11 @@
               "RelativeToolTip": "Assets\\Scritps\\DogSpawner.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T20:58:11.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T20:58:11.128Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\GameManager.cs",
@@ -271,24 +296,24 @@
               "RelativeToolTip": "Assets\\Scritps\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T18:49:25.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T18:49:25.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 2,
               "Title": "AudioSettingsManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Sounds\\AudioSettingsManager.cs",
               "RelativeDocumentMoniker": "Assets\\Sounds\\AudioSettingsManager.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Sounds\\AudioSettingsManager.cs",
               "RelativeToolTip": "Assets\\Sounds\\AudioSettingsManager.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAADwv0AAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T01:03:44.95Z"
+              "WhenOpened": "2025-11-21T01:03:44.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "GamePauseManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\GamePauseManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\GamePauseManager.cs",
@@ -300,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PigeonSpawner.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PigeonSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\PigeonSpawner.cs",
@@ -308,12 +333,11 @@
               "RelativeToolTip": "Assets\\Scritps\\PigeonSpawner.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T23:26:49.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T23:26:49.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "PlayerRunnerController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PlayerRunnerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\PlayerRunnerController.cs",
@@ -321,12 +345,11 @@
               "RelativeToolTip": "Assets\\Scritps\\PlayerRunnerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T21:29:34.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T21:29:34.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SpawnDirector.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\SpawnDirector.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\SpawnDirector.cs",
@@ -339,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "PigeonObstacleHit.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PigeonObstacleHit.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\PigeonObstacleHit.cs",
@@ -351,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "CoinPickup.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CoinPickup.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\CoinPickup.cs",
@@ -363,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "CoinSpawner.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CoinSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\CoinSpawner.cs",
@@ -375,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "UIButtonSFX.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Sounds\\UIButtonSFX.cs",
               "RelativeDocumentMoniker": "Assets\\Sounds\\UIButtonSFX.cs",
@@ -387,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "SettingsPanel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\SettingsPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\SettingsPanel.cs",
@@ -399,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "PigeonMover.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PigeonMover.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\PigeonMover.cs",
@@ -411,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "CoinMover.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CoinMover.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\CoinMover.cs",
@@ -423,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "DogMover.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\DogMover.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\DogMover.cs",
@@ -435,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "LevelScroller.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\LevelScroller.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\LevelScroller.cs",
@@ -447,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "PauseOpensSettings.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\PauseOpensSettings.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\PauseOpensSettings.cs",
@@ -459,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "JumpExitLock.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\JumpExitLock.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\JumpExitLock.cs",
@@ -471,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "CurrencyUI.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CurrencyUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\CurrencyUI.cs",
@@ -483,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\AudioManager.cs",
@@ -495,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "CanvasGroupFader.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoUnity_Electiva777\\El Mandado\\Assets\\Scritps\\CanvasGroupFader.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\CanvasGroupFader.cs",

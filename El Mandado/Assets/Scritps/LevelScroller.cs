@@ -91,30 +91,7 @@ public class LevelScroller : MonoBehaviour
         }
 
         // ¿Se acabó el nivel? (cuando el borde derecho ya salió por el lado izquierdo de la cámara)
-        if (cam)
-        {
-            float halfWidth = cam.orthographicSize * cam.aspect;
-            float camLeft = cam.transform.position.x - halfWidth;
-
-            // El borde derecho del nivel se mueve lo mismo que el objeto base (transform), pero
-            // aquí estamos moviendo capas individualmente. Usamos la capa más cercana (parallax ~1) como referencia:
-            // si no existe, usamos el transform del propio LevelScroller (root).
-            float referenceShiftX = 0f;
-            int idxRef = GetNearestLayerIndex();
-            if (idxRef >= 0 && layers[idxRef].root)
-                referenceShiftX = layers[idxRef].root.position.x - startPos[idxRef].x;
-            else
-                referenceShiftX = transform.position.x - rootStart.x;
-
-            float rightEdgeNow = maxX + referenceShiftX;
-
-            if (rightEdgeNow < camLeft + endMargin)
-            {
-                // detener movimiento
-                enabled = false;
-                onLevelFinished?.Invoke();
-            }
-        }
+        
     }
 
     int GetNearestLayerIndex()

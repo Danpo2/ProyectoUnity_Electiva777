@@ -25,7 +25,8 @@ public class PlayerRunnerController : MonoBehaviour
     public bool logGestures = false;                         // para ver logs en consola
     Dictionary<int, Vector2> swipeStart = new();             // inicio por dedo
 
-    
+    [Header("Level")]
+    public LevelScroller levelScroller;   // se asigna en el Inspector
 
 
     [Header("Jump Animation")]
@@ -369,11 +370,18 @@ public class PlayerRunnerController : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Detecta si tocó una paloma
         if (other.CompareTag("Pigeon"))
         {
             Debug.Log("💥 Colisión con paloma");
             PauseGame();
+        }
+        else if (other.CompareTag("LevelGoal"))
+        {
+            Debug.Log("[Goal] Jugador tocó la meta");
+
+            if (levelScroller) levelScroller.enabled = false;
+
+            GameManager.I?.PlayerReachedGoal();
         }
     }
 

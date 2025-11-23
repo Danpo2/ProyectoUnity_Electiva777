@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scritps\AudioManager.cs" />
     <Compile Include="Assets\Scritps\GamePauseManager.cs" />
     <Compile Include="Assets\Sounds\AudioSettingsManager.cs" />
+    <Compile Include="Assets\Scritps\IntroVideoController.cs" />
     <Compile Include="Assets\Scritps\SpawnDirector.cs" />
     <Compile Include="Assets\Scritps\CoinSpawner.cs" />
     <Compile Include="Assets\Scritps\PodiumModal.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Sounds\MusicManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Scritps\SettingsPanel.cs" />
     <Compile Include="Assets\Scritps\PodiumFetcher.cs" />

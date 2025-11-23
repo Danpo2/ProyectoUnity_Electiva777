@@ -13,6 +13,7 @@ public class MenuManager : MonoBehaviour
 
 
     [Header("Scene Names")]
+    public string introScene = "IntroVideo";   // NUEVA escena con el video
     public string gameScene = "Game";
     public string shopScene = "Shop";
     public string podiumScene = "Podium";
@@ -22,6 +23,7 @@ public class MenuManager : MonoBehaviour
 
     void Start()
     {
+        MusicManager.I?.PlayMenu();
         if (fader) fader.Instant(0f);
         if (settingsPanel) settingsPanel.SetActive(false);
 
@@ -59,9 +61,11 @@ public class MenuManager : MonoBehaviour
         // Guarda el nombre antes de cargar la escena
         PlayerPrefs.SetString("PlayerName", playerName);
         PlayerPrefs.Save();
-        feedback.text = "Nombre guardado";
+        if (feedback) feedback.text = "Nombre guardado";
 
-        LoadScene(gameScene);
+        // Ir primero a la escena del video
+        LoadScene(introScene);
+
     }
 
 

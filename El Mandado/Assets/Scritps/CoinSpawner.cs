@@ -63,16 +63,16 @@ public class CoinSpawner : MonoBehaviour
         float right = cam.transform.position.x + cam.orthographicSize * cam.aspect;
         Vector3 pos = new Vector3(right + offsetFromRight, spawnY, z);
 
-        // Instanciar usando la escala del prefab
-        GameObject go = Instantiate(coinPrefab, pos, Quaternion.identity);
+        // ANTES: sin padre (monedas quedan sueltas en la escena)
+        // GameObject go = Instantiate(coinPrefab, pos, Quaternion.identity);
 
-        // 💡 NO forzamos escala (mantiene la del prefab)
-        // go.transform.localScale = Vector3.one; ← esta línea la quitamos
+        // AHORA: que cuelguen del propio CoinSpawner
+        GameObject go = Instantiate(coinPrefab, pos, Quaternion.identity, transform);
 
-        // Configurar el movimiento si tiene CoinMover
         var mover = go.GetComponent<CoinMover>();
         if (mover) mover.speed = coinSpeed;
     }
+
 
 }
 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: da5cb9fdc3fc84e45afb02c2960f4046
+guid: 9363ae51bc88e2446827820c6b616e90
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3162692033490613816
-    second: "AndenDef\xE7_0"
+      213: 5270036008395946370
+    second: Anden_terminado_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,11 +46,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "AndenDef\xE7_0"
+      name: Anden_terminado_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 14026
+        width: 15902
         height: 85
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c985d92a5cdb14d0800000000000000
-      internalID: -3162692033490613816
+      spriteID: 28935f9e3dde22940800000000000000
+      internalID: 5270036008395946370
       vertices: []
       indices: 
       edges: []
@@ -139,7 +139,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "AndenDef\xE7_0": -3162692033490613816
+      Anden_terminado_0: 5270036008395946370
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
