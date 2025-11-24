@@ -77,6 +77,9 @@ public class PlayerRunnerController : MonoBehaviour
     Vector2 colSizeOrig, colOffsetOrig;
     Vector2 colSizeCrouch, colOffsetCrouch;
 
+    public bool IsGrounded => isGrounded;
+    public float GroundY { get; private set; }
+
     void Reset()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -176,6 +179,10 @@ public class PlayerRunnerController : MonoBehaviour
             anim.SetBool("Grounded", isGrounded);
             anim.SetFloat("yVel", rb.linearVelocity.y);
             anim.SetBool("Crouch", isCrouching);
+        }
+        if (isGrounded)
+        {
+            GroundY = transform.position.y;
         }
     }
 

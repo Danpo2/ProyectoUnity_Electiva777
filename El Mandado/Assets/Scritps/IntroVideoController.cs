@@ -9,13 +9,16 @@ public class IntroVideoController : MonoBehaviour
 
     bool done = false;
 
+    void Start()
+    {
+        // Apagar música de menú al entrar en esta escena
+        MusicManager.I?.StopMusic();
+    }
+
     void Awake()
     {
         if (videoPlayer)
-        {
-            // Cuando termine el video, llamará a OnVideoFinished
             videoPlayer.loopPointReached += OnVideoFinished;
-        }
     }
 
     void OnDestroy()

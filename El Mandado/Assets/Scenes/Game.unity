@@ -375,6 +375,7 @@ MonoBehaviour:
   spawnInterval: 2
   spawnOnStart: 0
   dogSpeed: 4.5
+  playerCtrl: {fileID: 499728019}
 --- !u!4 &217521094
 Transform:
   m_ObjectHideFlags: 0
@@ -424,9 +425,9 @@ MonoBehaviour:
   cam: {fileID: 519420031}
   player: {fileID: 499728018}
   fixedPlayerX: -4.38
-  dogInterval: {x: 4, y: 7}
-  pigeonInterval: {x: 3, y: 6}
-  minConflictGap: 1.5
+  dogInterval: {x: 5, y: 8}
+  pigeonInterval: {x: 4, y: 7}
+  minConflictGap: 2
   arrivalTolerance: 0.05
 --- !u!4 &236756747
 Transform:
@@ -1415,7 +1416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2141,7 +2142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2750,6 +2751,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 930920657}
     m_Modifications:
+    - target: {fileID: 163047608210038927, guid: b5e792cb292cad04c8380761433798f6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 51.354687
+      objectReference: {fileID: 0}
     - target: {fileID: 1553005729605056465, guid: b5e792cb292cad04c8380761433798f6, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2872,7 +2877,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4663262770063624833, guid: b5e792cb292cad04c8380761433798f6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -510
+      value: -449
       objectReference: {fileID: 0}
     - target: {fileID: 4878793278277895492, guid: b5e792cb292cad04c8380761433798f6, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2936,7 +2941,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6919066233580643624, guid: b5e792cb292cad04c8380761433798f6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -442
+      value: -381
       objectReference: {fileID: 0}
     - target: {fileID: 7275942264190813862, guid: b5e792cb292cad04c8380761433798f6, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3033,6 +3038,7 @@ MonoBehaviour:
   pigeonSpeed: 8
   speedMultiplier: 1
   z: 0
+  playerCtrl: {fileID: 499728019}
 --- !u!1 &1339084043
 GameObject:
   m_ObjectHideFlags: 0
@@ -3258,7 +3264,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 123.83554, y: 197.70001}
+  m_AnchoredPosition: {x: 123.83554, y: 193.00002}
   m_SizeDelta: {x: 188.43, y: 104.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1369911630
@@ -4082,7 +4088,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -100, y: 198}
+  m_AnchoredPosition: {x: -100, y: 196}
   m_SizeDelta: {x: 188.43, y: 104.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1844446601
@@ -4137,7 +4143,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 2119261741}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -4805,7 +4811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:

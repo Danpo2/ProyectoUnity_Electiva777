@@ -19,7 +19,7 @@ public class DogSpawner : MonoBehaviour
     [Header("Movimiento del perro")]
     [Tooltip("Velocidad hacia la izquierda que tendrá el perro (si usa DogMover).")]
     public float dogSpeed = 4.5f;
-
+    public PlayerRunnerController playerCtrl;  // asígnalo en el inspector
     Coroutine loop;
 
     void Awake()
@@ -53,17 +53,13 @@ public class DogSpawner : MonoBehaviour
     [ContextMenu("Spawn One (Test)")]
     public void SpawnOne()
     {
-        if (!dogPrefab || !cam || !player) return;
+        if (!dogPrefab || !cam || !playerCtrl) return;
 
         float right = cam.transform.position.x + cam.orthographicSize * cam.aspect;
+        float baseY = playerCtrl.GroundY;   // última Y en suelo
+        float spawnY = baseY + yOffset;
 
-        float spawnY = player.position.y + yOffset;   // misma altura que el jugador
         Vector3 pos = new Vector3(right + offsetFromRight, spawnY, z);
-
-        // ANTES: sin padre (el perro queda suelto en la raíz)
-        // GameObject go = Instantiate(dogPrefab, pos, Quaternion.identity);
-
-        // AHORA: que cuelgue del propio DogSpawner
         GameObject go = Instantiate(dogPrefab, pos, Quaternion.identity, transform);
 
         var mover = go.GetComponent<DogMover>();

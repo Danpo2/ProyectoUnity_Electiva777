@@ -18,7 +18,11 @@ public class MusicManager : MonoBehaviour
         I = this;
         DontDestroyOnLoad(gameObject);
     }
-
+    public void StopMusic()
+{
+    if (musicSource != null)
+        musicSource.Stop();
+}
     public void PlayMenu()
     {
         PlayClip(menuMusic);

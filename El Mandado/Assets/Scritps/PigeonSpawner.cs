@@ -22,7 +22,7 @@ public class PigeonSpawner : MonoBehaviour
 
     [Header("Z y Sorting")]
     public float z = 0f;
-
+    public PlayerRunnerController playerCtrl;
     void Awake()
     {
         if (!cam) cam = Camera.main;
@@ -48,13 +48,13 @@ public class PigeonSpawner : MonoBehaviour
 
     public void SpawnOne()
     {
-        if (!pigeonPrefab || !cam || !player) return;
+        if (!pigeonPrefab || !cam || !playerCtrl) return;
 
         float right = cam.transform.position.x + cam.orthographicSize * cam.aspect;
+        float baseY = playerCtrl.GroundY;
+        float spawnY = baseY + heightAbovePlayer;
 
-        float spawnY = player.position.y + heightAbovePlayer;
         Vector3 pos = new Vector3(right + offsetFromRight, spawnY, z);
-
         var go = Instantiate(pigeonPrefab, pos, Quaternion.identity, transform);
 
         var mover = go.GetComponent<PigeonMover>();
